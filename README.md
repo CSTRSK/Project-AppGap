@@ -1,3 +1,5 @@
+[![Project AppGap](https://raw.githubusercontent.com/CSTRSK/Project-AppGap/main/Logo/Project%20AppGap%20Logo.png "Project AppGap")](https://github.com/CSTRSK/Project-AppGap/ "Project AppGap")
+
 # Willkommen bei Project AppGap
 
 Wie sicher jeder von euch weiß, besteht im Windows Store nach wie vor eine App-Lücke, welche mit Windows 10 geschlossen werden sollte. Viele von euch haben versucht, verschiedene Unternehmen anzuschreiben und nachzufragen, wie es denn um eine Windows App steht. Meistens war man aber dann doch zu bequem, um einen ausführlichen Text zusammenzuschreiben und dann zu versenden.
