@@ -1,0 +1,598 @@
+﻿<Page
+    x:Class="Project_AppGap.Seiten.UberUns"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project_AppGap.Seiten"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="PivotHeaderItem">
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontFamily" Value="{ThemeResource PivotHeaderItemFontFamily}" />
+            <Setter Property="FontWeight" Value="{ThemeResource PivotHeaderItemThemeFontWeight}" />
+            <Setter Property="CharacterSpacing" Value="{ThemeResource PivotHeaderItemCharacterSpacing}" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Padding" Value="{ThemeResource PivotHeaderItemMargin}" />
+            <Setter Property="Height" Value="48" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="IsTabStop" Value="False" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PivotHeaderItem">
+                        <Grid
+                        x:Name="Grid"
+                        Background="{TemplateBinding Background}">
+                            <!-- <Grid.Resources>
+                                <Style x:Key="BaseContentPresenterStyle" TargetType="ContentPresenter">
+                                    <Setter Property="FontFamily" Value="XamlAutoFontFamily"/>
+                                    <Setter Property="FontWeight" Value="SemiBold"/>
+                                    <Setter Property="FontSize" Value="15"/>
+                                    <Setter Property="TextWrapping" Value="Wrap"/>
+                                    <Setter Property="LineStackingStrategy" Value="MaxHeight"/>
+                                    <Setter Property="TextLineBounds" Value="Full"/>
+                                    <Setter Property="OpticalMarginAlignment" Value="TrimSideBearings"/>
+                                </Style>
+                                <Style x:Key="BodyContentPresenterStyle" TargetType="ContentPresenter" BasedOn="{StaticResource BaseContentPresenterStyle}">
+                                    <Setter Property="FontFamily" Value="{ThemeResource PivotHeaderItemFontFamily}" />
+                                    <Setter Property="FontWeight" Value="{ThemeResource PivotHeaderItemThemeFontWeight}"/>
+                                    <Setter Property="FontSize" Value="{ThemeResource PivotHeaderItemFontSize}"/>
+                                </Style>
+                            </> -->
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="SelectionStates">
+                                    <VisualStateGroup.Transitions>
+                                        <VisualTransition From="Unselected" To="UnselectedLocked" GeneratedDuration="0:0:0.33" />
+                                        <VisualTransition From="UnselectedLocked" To="Unselected" GeneratedDuration="0:0:0.33" />
+                                    </VisualStateGroup.Transitions>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="Foreground" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unselected" >
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="Foreground" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="UnselectedLocked">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="ContentPresenterTranslateTransform"
+                                                         Storyboard.TargetProperty="X"
+                                                         Duration="0" To="{ThemeResource PivotHeaderItemLockedTranslation}" />
+                                            <DoubleAnimation Storyboard.TargetName="ContentPresenter"
+                                                         Storyboard.TargetProperty="(UIElement.Opacity)"
+                                                         Duration="0" To="0" />
+                                        </Storyboard>
+                                    </VisualState>
+
+                                    <!--Ausgewählt-->
+                                    <VisualState x:Name="Selected">
+                                        <Storyboard>
+
+                                            <!--Setzt den Text Bold-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="FontWeight" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Bold" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                            <!--Setzt die Schriftfarbe auf Schwarz-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="Foreground" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                            <!--Setzt den Hintergrund auf Transparent-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Grid"
+                                                                       Storyboard.TargetProperty="Background" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SystemControlHighlightTransparentBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                        </Storyboard>
+                                    </VisualState>
+
+                                    <VisualState x:Name="UnselectedPointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="Foreground" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Grid"
+                                                                       Storyboard.TargetProperty="Background" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SystemControlHighlightTransparentBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="SelectedPointerOver">
+                                        <Storyboard>
+
+                                            <!--Setzt den Text Bold-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="FontWeight" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Bold" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                            <!--Setzt die Schriftfarbe auf Weiß-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="Foreground" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                            <!--Setzt den Hintergrund auf Transparent-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Grid"
+                                                                       Storyboard.TargetProperty="Background" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SystemControlHighlightTransparentBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="UnselectedPressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="Foreground" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Grid"
+                                                                       Storyboard.TargetProperty="Background" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SystemControlHighlightTransparentBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="SelectedPressed">
+                                        <Storyboard>
+
+                                            <!--Setzt den Text Bold-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="FontWeight" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Bold" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                            <!--Setzt die Schriftfarbe auf Schwarz-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                       Storyboard.TargetProperty="Foreground" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                            <!--Setzt den Hintergrund auf Transparent-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Grid"
+                                                                       Storyboard.TargetProperty="Background" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SystemControlHighlightTransparentBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentPresenter
+                            x:Name="ContentPresenter"
+                            Content="{TemplateBinding Content}"
+                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                            Margin="{TemplateBinding Padding}"
+                            FontSize="{TemplateBinding FontSize}"
+                            FontFamily="{TemplateBinding FontFamily}"
+                            FontWeight="{TemplateBinding FontWeight}"
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
+                                <ContentPresenter.RenderTransform>
+                                    <TranslateTransform x:Name="ContentPresenterTranslateTransform" />
+                                </ContentPresenter.RenderTransform>
+                            </ContentPresenter>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <RelativePanel Background="#0078D7">
+            <Button x:Name="HamburgerHeaderButton"  BorderThickness="0" Content="&#xE700;" FontFamily="Segoe MDL2 Assets" Foreground="White" Height="50" Width="50"  FontSize="21" Background="Transparent" Click="HamburgerHeaderButton_Click"/>
+            <TextBlock Name="header_txt" Foreground="White" FontWeight="Light" FontSize="18" RelativePanel.AlignLeftWith="HamburgerHeaderButton" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="50,0,0,0"/>
+        </RelativePanel>
+
+        <SplitView x:Name="MySplitView" Grid.Row="1" DisplayMode="CompactInline" IsPaneOpen="True" CompactPaneLength="50" OpenPaneLength="250">
+            <SplitView.Pane>
+                <Grid>
+                    <ListBox SelectionMode="Single" SelectionChanged="ListBox_SelectionChanged">
+                        <ListBoxItem x:Name="startseite">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE10F;" Height="25" Width="30" HorizontalAlignment="Left"/>
+                                <TextBlock Name="startseite_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <!--<ListBoxItem x:Name="showboxs">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Name="Main" Glyph="&#xE719;" Height="25" Width="30"/>
+                                <TextBlock Name="showbox_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem> -->
+                        <ListBoxItem x:Name="ruckmeldungen">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph=" &#xE172;" Height="25" Width="30"/>
+                                <TextBlock Name="ruckmeldungen_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="textvorlagen">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE8BD;" Height="25" Width="20" Margin="5,0,0,0"/>
+                                <TextBlock Name="textvorlagen_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="einsenden">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE898;" Height="25" Width="30" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Name="einsenden_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="uber_uns">
+                            <StackPanel Orientation="Horizontal">
+                                <Rectangle Fill="#0078D7" Width="4.5" Height="25" Margin="-15,0,0,0"/>
+                                <FontIcon Glyph="&#xE946;" Height="25" Width="30" Foreground="#0078D7"/>
+                                <TextBlock Name="uber_uns_txt" Margin="10,0,0,0" VerticalAlignment="Center" Foreground="#0078D7"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                       <!--<ListBoxItem x:Name="kontakt">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE13D;" Height="25" Width="30"/>
+                                <TextBlock Name="kontakt_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem> -->
+
+                    </ListBox>
+
+                    <ListBox SelectionMode="Single" SelectionChanged="ListBox_SelectionChanged" VerticalAlignment="Bottom">
+                        <ListBoxItem x:Name="einstellungen">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE115;" Height="25" Width="30"/>
+                                <TextBlock Name="einstellungen_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                    </ListBox>
+                </Grid>
+            </SplitView.Pane>
+
+
+            <Grid>
+
+                <Pivot Name="Pivot_container" Grid.Row="1" Canvas.ZIndex="2">
+                    <Pivot.ItemContainerTransitions>
+                        <TransitionCollection>
+                            <EntranceThemeTransition FromVerticalOffset="50" IsStaggeringEnabled="True"/>
+                        </TransitionCollection>
+                    </Pivot.ItemContainerTransitions>
+
+                    <PivotItem Name="allgemein_header">
+
+                        <ScrollViewer VerticalScrollBarVisibility="Hidden" Margin="-12,0,-12,0">
+                            <StackPanel>
+
+
+                                <TextBlock Name="AllgemeinText" Margin="10,5,10,0" FontSize="15" TextWrapping="WrapWholeWords"/>
+
+                            </StackPanel>
+                        </ScrollViewer>
+                    </PivotItem>
+
+                    <PivotItem Name="team_txt">
+                        <ScrollViewer VerticalScrollBarVisibility="Hidden">
+
+
+
+                            <RelativePanel VerticalAlignment="Stretch">
+                                <RelativePanel.ChildrenTransitions>
+                                    <TransitionCollection>
+                                        <EntranceThemeTransition IsStaggeringEnabled="True"/>
+                                    </TransitionCollection>
+                                </RelativePanel.ChildrenTransitions>
+
+                                <RelativePanel x:Name="Rene" 
+                                   VerticalAlignment="Center"
+                                   Height="Auto"
+                                   Padding="0,5,0,20">
+                                    <Rectangle x:Name="RenePic"
+                                   Height="80"
+                                   Width="80"
+                                   RelativePanel.AlignVerticalCenterWithPanel="True"
+                                   RadiusX="40"
+                                   RadiusY="40">
+                                        <Rectangle.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/Rene.jpg">
+                                                <ImageBrush.RelativeTransform>
+                                                    <CompositeTransform CenterY="0.5" CenterX="0.5"/>
+                                                </ImageBrush.RelativeTransform>
+                                            </ImageBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock x:Name="ReneName"
+                                   RelativePanel.RightOf="RenePic" TextWrapping="WrapWholeWords"
+                                   Margin="10,5,0,0">
+                                <Run FontWeight="Bold" FontSize="14">CSTRSK Apps&#13;</Run>
+                                <Run Text=" Projektleiter und Entwickler" FontSize="11"/>
+                                    </TextBlock>
+                                    <TextBlock x:Name="ReneText"
+                                   RelativePanel.Below="ReneName"
+                                   RelativePanel.RightOf="RenePic"
+                                   Margin="10,2,0,0"
+                                   TextWrapping="Wrap"> 
+                                <Run Text="Ich entwickele seit 2008 verschiedenste Programme. EX-Android Entwickler und Nokia Enthusiast der sich für Windows Apps verschworen hat da ich noch großes Potenzial in den Microsoft Systemen sehe. Auf Twitter bin ich auffindbar unter dem Username "/>
+                                <Hyperlink NavigateUri="https://twitter.com/CSTRSK">@CSTRSK</Hyperlink>
+                                    </TextBlock>
+                                </RelativePanel>
+
+
+
+                                <RelativePanel x:Name="ManuelBlaschke" 
+                                   VerticalAlignment="Center"
+                                   Height="Auto"
+                                   RelativePanel.Below="Rene"
+                                   Padding="0,5,0,20">
+                                    <Rectangle x:Name="ManuelPic"
+                                   Height="80"
+                                   Width="80"
+                                   RelativePanel.AlignVerticalCenterWithPanel="True"
+                                   RadiusX="40"
+                                   RadiusY="40">
+                                        <Rectangle.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/Manuel.jpg">
+                                                <ImageBrush.RelativeTransform>
+                                                    <CompositeTransform CenterY="0.5" CenterX="0.5"/>
+                                                </ImageBrush.RelativeTransform>
+                                            </ImageBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock x:Name="ManuelName"
+                                   RelativePanel.RightOf="ManuelPic"
+                                                TextWrapping="WrapWholeWords"
+                                   Margin="10,5,0,0">
+                                <Run FontWeight="Bold" FontSize="14">Manuel Blaschke&#13;</Run>
+                                <Run Text=" Ehe­ma­li­ger Projektleiter" FontSize="11"/>
+                                    </TextBlock>
+                                    <TextBlock x:Name="ManuelText"
+                                   RelativePanel.Below="ManuelName"
+                                   RelativePanel.RightOf="ManuelPic"
+                                   Margin="10,2,0,0"
+                                   TextWrapping="Wrap">
+                                    <Run Text="Ich bin begeisteter Fan von Windows 10, Windows 10 Mobile und natürlich Microsoft selbst, doch leider gibt es im Windows Store noch immer nicht alle Apps die ich dort gerne hätte. Auf Twitter auffindbar unter"/>
+                                    <Hyperlink NavigateUri="https://twitter.com/Manuel_Blaschke">@Manuel_Blaschke</Hyperlink>
+                                    <Run>.</Run>
+                                    </TextBlock>
+                                </RelativePanel>
+
+                                <RelativePanel x:Name="NilsTuschik" 
+                                   VerticalAlignment="Center"
+                                   Height="Auto"
+                                   RelativePanel.Below="ManuelBlaschke"
+                                   Padding="0,5,0,20">
+                                    <Rectangle x:Name="NilsPic"
+                                   Height="80"
+                                   Width="80"
+                                   RelativePanel.AlignVerticalCenterWithPanel="True"
+                                   RadiusX="40"
+                                   RadiusY="40">
+                                        <Rectangle.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/Nils.jpg">
+                                                <ImageBrush.RelativeTransform>
+                                                    <CompositeTransform CenterY="0.5" CenterX="0.5"/>
+                                                </ImageBrush.RelativeTransform>
+                                            </ImageBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock x:Name="NilsName"
+                                   RelativePanel.RightOf="NilsPic"   
+                                               TextWrapping="WrapWholeWords"
+                                   Margin="10,5,0,0">
+                                <Run FontWeight="Bold" FontSize="14">Nils Tuschik&#13;</Run>
+                                <Run Text=" Ehe­ma­li­ger Administrator" FontSize="11"/>
+                                    </TextBlock>
+                                    <TextBlock x:Name="NilsText"
+                                   RelativePanel.Below="NilsName"
+                                   RelativePanel.RightOf="NilsPic"
+                                   Margin="10,2,0,0"
+                                   TextWrapping="Wrap">
+                                <Run Text="Windows-Enthusiast und Windows Phone Nutzer seit erster Stunde. Host vom Windows Wohnzimmer Webcast. In der Windows Community aktiv. Auf Twitter unter"/>
+                                <Hyperlink NavigateUri="https://twitter.com/TechNils">@TechNils</Hyperlink>
+                                <Run Text=" zu finden."/>
+                                    </TextBlock>
+                                </RelativePanel>
+
+                                <RelativePanel x:Name="AlexanderSchneider" 
+                                   VerticalAlignment="Center"
+                                   Height="Auto"
+                                   RelativePanel.Below="NilsTuschik"
+                                   Padding="0,5,0,20">
+                                    <Rectangle x:Name="AlexPic"
+                                   Height="80"
+                                   Width="80"
+                                   RelativePanel.AlignVerticalCenterWithPanel="True"
+                                   RadiusX="40"
+                                   RadiusY="40">
+                                        <Rectangle.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/Alex.jpg">
+                                                <ImageBrush.RelativeTransform>
+                                                    <CompositeTransform CenterY="0.5" CenterX="0.5"/>
+                                                </ImageBrush.RelativeTransform>
+                                            </ImageBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock x:Name="AlexName"
+                                   RelativePanel.RightOf="AlexPic"    
+                                               TextWrapping="WrapWholeWords"
+                                   Margin="10,5,0,0">
+                                <Run FontWeight="Bold" FontSize="14">Alexander Schneider&#13;</Run>
+                                <Run Text=" Ehe­ma­li­ger Web-Entwickler" FontSize="11"/>
+                                    </TextBlock>
+                                    <TextBlock x:Name="AlexText"
+                                   RelativePanel.Below="AlexName"
+                                   RelativePanel.RightOf="AlexPic"
+                                   Margin="10,2,0,0"
+                                   TextWrapping="Wrap">
+                                <Run Text="Obwohl, oder gerade weil ich mit nur einem Jahr recht frisch in der Windows Mobile Landschaft bin, interessiere ich mich sehr für die Entwicklung der Plattform. Auch bin ich in anderen IT Bereichen interessiert, weswegen ich bei dem Projekt an vielen Stellen mitwirke und es aus vollem Herzen unterstütze. Unter Twitter auffindbar unter"/>
+                                <Hyperlink NavigateUri="https://twitter.com/RageTV_Alex">@RageTV-Alex</Hyperlink>
+                                <Run Text="."/>
+                                    </TextBlock>
+                                </RelativePanel>
+
+                                <RelativePanel x:Name="ManuelLibal" 
+                                   VerticalAlignment="Center"
+                                   Height="Auto"
+                                   RelativePanel.Below="AlexanderSchneider"
+                                   Padding="0,5,0,20">
+                                    <Rectangle x:Name="LibalPic"
+                                   Height="80"
+                                   Width="80"
+                                   RelativePanel.AlignVerticalCenterWithPanel="True"
+                                   RadiusX="40"
+                                   RadiusY="40">
+                                        <Rectangle.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/Libal.jpg">
+                                                <ImageBrush.RelativeTransform>
+                                                    <CompositeTransform CenterY="0.5" CenterX="0.5"/>
+                                                </ImageBrush.RelativeTransform>
+                                            </ImageBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock x:Name="LibalName"
+                                   RelativePanel.RightOf="LibalPic"  
+                                               TextWrapping="WrapWholeWords"
+                                   Margin="10,5,0,0">
+                                <Run FontWeight="Bold" FontSize="14">Manuel Libal&#13;</Run>
+                                <Run Text=" Ehe­ma­li­ger Web-Entwickler" FontSize="11"/>
+                                    </TextBlock>
+                                    <TextBlock x:Name="LibalText"
+                                   RelativePanel.Below="LibalName"
+                                   RelativePanel.RightOf="LibalPic"
+                                   Margin="10,2,0,0"
+                                   TextWrapping="Wrap">
+                                <Run Text="Web-Entwickler und Datenbank-Spezialist bei Project AppGap. Auf Twitter auffindbar unter"/>
+                                <Hyperlink NavigateUri="https://twitter.com/vurgus">@vurgus</Hyperlink>
+                                <Run Text="."/>
+                                    </TextBlock>
+                                </RelativePanel>
+
+
+                                <RelativePanel x:Name="PatrickKrey" 
+                                   VerticalAlignment="Center"
+                                   Height="Auto"
+                                   RelativePanel.Below="ManuelLibal"
+                                   Padding="0,5,0,20">
+                                    <Rectangle x:Name="NekoPic"
+                                   Height="80"
+                                   Width="80"
+                                   RelativePanel.AlignVerticalCenterWithPanel="True"
+                                   RadiusX="40"
+                                   RadiusY="40">
+                                        <Rectangle.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/Neko.jpg">
+                                                <ImageBrush.RelativeTransform>
+                                                    <CompositeTransform ScaleX="1.5" ScaleY="1.5" 
+                                                                TranslateX="-0.2" TranslateY="-0.1"/>
+                                                </ImageBrush.RelativeTransform>
+                                            </ImageBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock x:Name="NekoName"
+                                   RelativePanel.RightOf="NekoPic"
+                                                TextWrapping="WrapWholeWords"
+                                   Margin="10,5,0,0">
+                                <Run FontWeight="Bold" FontSize="14">Patrick Krey&#13;</Run>
+                                <Run Text=" Ehe­ma­li­ger App-Entwickler" FontSize="11"/>
+                                    </TextBlock>
+                                    <TextBlock x:Name="NekoText"
+                                   RelativePanel.Below="NekoName"
+                                   RelativePanel.RightOf="NekoPic"
+                                   Margin="10,2,0,0"
+                                   TextWrapping="Wrap">
+                                <Run Text="Ich bin Patrick, aber nennt mich ruhig Neko. Ich bin freizeitlicher Coder im Anfangsstadium und seit Anfang 2013 Windows-Phone-User. Auf Twitter bin ich auffindbar unter dem Username "/>
+                                <Hyperlink NavigateUri="https://twitter.com/Flauschcoder">@Flauschcoder</Hyperlink>
+                                <Run Text="."/>
+                                    </TextBlock>
+                                </RelativePanel>
+
+                                <RelativePanel x:Name="FelixOrth" 
+                                   VerticalAlignment="Center"
+                                   Height="Auto"
+                                   RelativePanel.Below="PatrickKrey"
+                                   Padding="0,5,0,20">
+                                    <Rectangle x:Name="FelixPic"
+                                   Height="80"
+                                   Width="80"
+                                   RelativePanel.AlignVerticalCenterWithPanel="True"
+                                   RadiusX="40"
+                                   RadiusY="40">
+                                        <Rectangle.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/Felix.jpg">
+                                                <ImageBrush.RelativeTransform>
+                                                    <CompositeTransform CenterY="0.5" CenterX="0.5"/>
+                                                </ImageBrush.RelativeTransform>
+                                            </ImageBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock x:Name="FelixName"
+                                   RelativePanel.RightOf="FelixPic"    
+                                                TextWrapping="WrapWholeWords"
+                                   Margin="10,5,0,0">
+                                <Run FontWeight="Bold" FontSize="14">Felix Orth&#13;</Run>
+                                <Run Text=" Ehe­ma­li­ger App-Entwickler" FontSize="11"/>
+                                    </TextBlock>
+                                    <TextBlock x:Name="FelixText"
+                                   RelativePanel.Below="FelixName"
+                                   RelativePanel.RightOf="FelixPic"
+                                   Margin="10,2,0,0"
+                                   TextWrapping="Wrap">
+                                <Run Text="Eines meiner Hobbys ist C++ Programmierung und ich liebe die Windows Plattform. Wegen Mangel an Apps im Windows Store habe hab ich mich dazu entschlossen dem Project AppGap unter die Arme zu greifen."/>
+                                    </TextBlock>
+                                </RelativePanel>
+                            </RelativePanel>
+                        </ScrollViewer>
+                    </PivotItem>
+                 <!--  <PivotItem Name="spenden">
+                        <StackPanel>
+                            <TextBlock Name="Spenden_head" Margin="10,20,10,0" Grid.ColumnSpan="3" FontSize="15" FontWeight="Medium" TextWrapping="WrapWholeWords"/>
+                            <TextBlock Name="Spenden_txt" Margin="10,5,10,0" Grid.ColumnSpan="3" FontSize="15" TextWrapping="WrapWholeWords"/>
+                            <TextBlock Name="spende_store_head" Margin="10,20,10,0" Grid.ColumnSpan="3" FontSize="15" FontWeight="Medium" TextWrapping="WrapWholeWords"/>
+                            <Grid  Margin="0,20,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+
+                                <Button Name="spenden_btn_099" Content="0,99€" HorizontalAlignment="Center" Click="spenden_099_btn_Click" Grid.Column="0"/>
+                                <Button Name="spenden_btn_199" Content="1,99€" HorizontalAlignment="Center" Click="spenden_199_btn_Click" Grid.Column="1"/>
+                                <Button Name="spenden_btn_499" Content="4,99€" HorizontalAlignment="Center" Click="spenden_499_btn_Click" Grid.Column="2"/>
+                            </Grid>
+
+                            <Button Name="patreon_btn" HorizontalAlignment="Center" Click="patreon_btn_Click" Grid.Column="0"/>
+
+                        </StackPanel>
+                    </PivotItem>   -->
+
+                </Pivot>
+                <Rectangle 
+            HorizontalAlignment="Stretch" 
+            VerticalAlignment="Top" 
+            Height="44"
+            Grid.Row="1"
+            Visibility="Visible"
+            Canvas.ZIndex="0"
+            Fill="#0078D7"/>
+            </Grid>
+        </SplitView>
+
+    </Grid>
+</Page>

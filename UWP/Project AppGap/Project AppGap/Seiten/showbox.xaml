@@ -1,0 +1,169 @@
+﻿<Page
+    x:Class="Project_AppGap.Seiten.showbox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project_AppGap.Seiten"      
+    xmlns:data="using:Project_AppGap.ShowBoxModels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+    Loaded="Page_Loaded"                    
+    xmlns:adduplex="using:AdDuplex"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <RelativePanel Background="#0078D7">
+            <Button x:Name="HamburgerHeaderButton" BorderThickness="0" Content="&#xE700;" FontFamily="Segoe MDL2 Assets" Foreground="White" Height="50" Width="50"  FontSize="21" Background="Transparent" Click="HamburgerHeaderButton_Click"/>
+            <Button x:Name="BackHeaderButton"  Content="&#xE72B;" FontFamily="Segoe MDL2 Assets" BorderThickness="0" Foreground="White" Height="50" Width="50"  FontSize="21" Background="Transparent" Click="BackHeaderButton_Click"/>
+            <TextBlock Name="header_txt" Foreground="White" FontWeight="Light"  FontSize="18" RelativePanel.AlignLeftWith="HamburgerHeaderButton" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="50,0,0,0"/>
+            <Grid RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True">
+                <!-- <AppBarButton Name="search_btn" Click="search_btn_tap" Icon="Find" Foreground="White" Height="50" Width="50" HorizontalAlignment="Right" VerticalAlignment="Center" BorderThickness="0" Margin="0,0,0,0"/>
+                <AutoSuggestBox Name="MyAutoSuggsetBox" DataContext="{x:Bind MemoryItems}" ItemsSource="{x:Bind MemoryItems}" PlaceholderText="Suche" QueryIcon="Find" Width="300" HorizontalAlignment="Right" VerticalAlignment="Center"  TextChanged="MyAutoSuggsetBox_TextChanged" SuggestionChosen="MyAutoSuggsetBox_SuggestionChosen" Margin="10,0,0,0" BorderThickness="2"/>       -->
+            </Grid>
+        </RelativePanel>
+
+        <SplitView x:Name="MySplitView" Grid.Row="1" DisplayMode="CompactInline" IsPaneOpen="True" CompactPaneLength="50" OpenPaneLength="250" Canvas.ZIndex="1">
+            <SplitView.Pane>
+                <Grid>
+                    <ListBox SelectionMode="Single" SelectionChanged="ListBox_SelectionChanged">
+                        <ListBoxItem x:Name="startseite">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE10F;" Height="25" Width="30" HorizontalAlignment="Left"/>
+                                <TextBlock Name="startseite_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="showboxs">
+                            <StackPanel Orientation="Horizontal">
+                                <Rectangle Fill="#0078D7" Width="4.5" Height="25" Margin="-15,0,0,0"/>
+                                <FontIcon Name="Main" Glyph="&#xE719;" Height="25" Width="30" Foreground="#0078D7"/>
+                                <TextBlock Name="showbox_txt" Margin="10,0,0,0" VerticalAlignment="Center" Foreground="#0078D7"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="ruckmeldungen">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph=" &#xE172;" Height="25" Width="30"/>
+                                <TextBlock Name="ruckmeldungen_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="voteboxs">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE8E1;" Height="25" Width="20" Margin="5,0,0,0"/>
+                                <TextBlock Name="votebox_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="uber_uns">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE946;" Height="25" Width="30"/>
+                                <TextBlock Name="uber_uns_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="kontakt">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE13D;" Height="25" Width="30"/>
+                                <TextBlock Name="kontakt_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+
+                    </ListBox>
+
+                    <ListBox SelectionMode="Single" SelectionChanged="ListBox_SelectionChanged" VerticalAlignment="Bottom">
+                        <ListBoxItem x:Name="einstellungen">
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE115;" Height="25" Width="30"/>
+                                <TextBlock Name="einstellungen_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                    </ListBox>
+                </Grid>
+            </SplitView.Pane>
+
+
+            <Grid>
+
+                <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+
+
+                    <ListView Name="MasterListView" ItemsSource="{x:Bind MemoryItems}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" IsItemClickEnabled="True" ItemClick="MasterListView_ItemClick" Margin="-12,0,-12,30">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="data:showbox_jsonClass">
+                                <RelativePanel Margin="0,0,2,2" Height="60">
+                                    <Grid Name="img_bg" Background="{ThemeResource SystemControlBackgroundAccentBrush}" Height="60" Width="60" HorizontalAlignment="Left" RelativePanel.AlignLeftWithPanel="True"/>
+
+                                    <Image Name="img" Source="{x:Bind image}" HorizontalAlignment="Left" RelativePanel.AlignLeftWithPanel="True" Height="60" Width="60"/>
+
+                                    <StackPanel RelativePanel.RightOf="img" Margin="6,0,0,0" RelativePanel.AlignVerticalCenterWithPanel="True">
+                                        <TextBlock Name="app_name" Text="{x:Bind appname}" FontSize="18" FontWeight="Medium"/>
+                                        <TextBlock Name="_datum" Text="{x:Bind response}"/>
+                                    </StackPanel>
+                                </RelativePanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                        <ListView.GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.HeaderTemplate>
+                                    <DataTemplate x:DataType="data:showbox_jsonClass">
+                                        <StackPanel Orientation="Vertical">
+                                            <TextBlock Text='{x:Bind appname}' Foreground="Gray" FontSize="25" Margin="5" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </GroupStyle.HeaderTemplate>
+                            </GroupStyle>
+                        </ListView.GroupStyle>
+                    </ListView>
+
+                    <!--     <ScrollViewer Name="fullview" Grid.Row="0" VerticalScrollBarVisibility="Hidden" Margin="10,10,10,50">
+                        <Grid>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                               <TextBlock Name="app_name_txt" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Margin="10,0,0,0" FontWeight="Medium"/>
+                                <Image Name="app_status_img" HorizontalAlignment="Right" Height="18" Width="108" Grid.Column="1" Grid.Row="0" Margin="0,0,20,0"/>
+                                <TextBlock Name="app_datum_txt" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="1" Margin="0,0,20,0"/>
+                                <TextBlock Name="app_antwort_txt" Margin="10,2,10,0" Grid.ColumnSpan="2" Grid.Row="2" IsTextSelectionEnabled="True" TextWrapping="WrapWholeWords"/>
+                           </Grid>
+                        </Grid>
+                    </ScrollViewer> -->
+
+                    <ProgressRing Name="MyProgressRing" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="30" Grid.Row="0" />
+
+                    <TextBlock Name="showbox_disclamer" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="10" TextWrapping="WrapWholeWords"/>
+                    <adduplex:AdControl AdUnitId="205075" Grid.Row="1" AppKey="0257c6d1-4635-4307-9466-b74f930fd92e" />
+                </Grid>
+                <!--               <CommandBar x:Name="commandBar" VerticalAlignment="Bottom" Canvas.ZIndex="20">
+                    <AppBarButton Name="translate_button" Click="translate_click" RelativePanel.AlignRightWith="a_z_sort_button">
+                        <AppBarButton.Icon>
+                            <FontIcon Glyph="&#xE164;"/>
+                        </AppBarButton.Icon>
+                    </AppBarButton>
+                    <AppBarButton Name="undo_button" Icon="Undo" Click="undo_click"/>
+                    <AppBarButton Name="refresh_button" Icon="Refresh" Click="refresh_click" RelativePanel.AlignRightWith="a_z_sort_button"/>
+                  <AppBarButton Name="a_z_sort_button" Icon="Sort" Click="sort_abz_click" RelativePanel.AlignRightWithPanel="True"/>
+                </CommandBar>    -->
+
+            </Grid>
+        </SplitView>
+    </Grid>
+
+</Page>

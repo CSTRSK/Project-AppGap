@@ -1,0 +1,213 @@
+﻿<Page
+    x:Class="Project_AppGap.Seiten.WelcomeScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project_AppGap.Seiten"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"     
+     xmlns:UniversalWrapPanel="using:Gregstoll"  
+    mc:Ignorable="d">
+    <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="NarrowLayout">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="grid_1_0.Height" Value="220"/>
+                        <Setter Target="grid_1_0.Width" Value="180"/> 
+                        <Setter Target="grid_1_0.Margin" Value="4,0,4,0"/>                        
+                        <Setter Target="grid_1_1.Height" Value="220"/>
+                        <Setter Target="grid_1_1.Width" Value="180"/> 
+                        <Setter Target="grid_1_1.Margin" Value="4,0,4,0"/> 
+
+                        <Setter Target="grid_2_0.Height" Value="220"/>
+                        <Setter Target="grid_2_0.Width" Value="180"/> 
+                        <Setter Target="grid_2_0.Margin" Value="4,0,4,0"/> 
+                        <Setter Target="grid_2_1.Height" Value="220"/>
+                        <Setter Target="grid_2_1.Width" Value="180"/>  
+                        <Setter Target="grid_2_1.Margin" Value="4,0,4,0"/> 
+
+                        <Setter Target="grid_3_0.Height" Value="220"/>
+                        <Setter Target="grid_3_0.Width" Value="180"/>
+                        <Setter Target="grid_3_0.Margin" Value="4,0,4,0"/>
+                        <Setter Target="grid_3_1.Height" Value="220"/>
+                        <Setter Target="grid_3_1.Width" Value="180"/>    
+                        <Setter Target="grid_3_1.Margin" Value="4,0,4,0"/>
+                                                                             
+                        <Setter Target="fonticon_1_0.FontSize" Value="50"/>  
+                        <Setter Target="header_1_0.FontSize" Value="14"/>  
+                        <Setter Target="descripiton_1_0.FontSize" Value="12"/>                                                                               
+                        <Setter Target="fonticon_1_1.FontSize" Value="50"/>  
+                        <Setter Target="header_1_1.FontSize" Value="14"/>  
+                        <Setter Target="descripiton_1_1.FontSize" Value="12"/>   
+                                                                             
+                        <Setter Target="fonticon_2_0.FontSize" Value="50"/>  
+                        <Setter Target="header_2_0.FontSize" Value="14"/>  
+                        <Setter Target="descripiton_2_0.FontSize" Value="12"/>                                                                               
+                        <Setter Target="fonticon_2_1.FontSize" Value="50"/>  
+                        <Setter Target="header_2_1.FontSize" Value="14"/>  
+                        <Setter Target="descripiton_2_1.FontSize" Value="12"/> 
+                                                                             
+                        <Setter Target="fonticon_3_0.FontSize" Value="50"/>  
+                        <Setter Target="header_3_0.FontSize" Value="14"/>  
+                        <Setter Target="descripiton_3_0.FontSize" Value="12"/>                                                                               
+                        <Setter Target="fonticon_3_1.FontSize" Value="50"/>  
+                        <Setter Target="header_3_1.FontSize" Value="14"/>  
+                        <Setter Target="descripiton_3_1.FontSize" Value="12"/> 
+                        
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="LagerLayout">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="grid_1_0.Height" Value="240"/>
+                        <Setter Target="grid_1_0.Width" Value="200"/>  
+                        <Setter Target="grid_1_0.Margin" Value="6,0,6,0"/> 
+                        <Setter Target="grid_1_1.Height" Value="240"/>
+                        <Setter Target="grid_1_1.Width" Value="200"/> 
+                        <Setter Target="grid_1_1.Margin" Value="6,0,6,0"/> 
+
+                        <Setter Target="grid_2_0.Height" Value="240"/>
+                        <Setter Target="grid_2_0.Width" Value="200"/> 
+                        <Setter Target="grid_2_0.Margin" Value="6,0,6,0"/>
+                        <Setter Target="grid_2_1.Height" Value="240"/>
+                        <Setter Target="grid_2_1.Width" Value="180"/> 
+                        <Setter Target="grid_2_1.Margin" Value="6,0,6,0"/>
+
+                        <Setter Target="grid_3_0.Height" Value="240"/>
+                        <Setter Target="grid_3_0.Width" Value="200"/> 
+                        <Setter Target="grid_3_0.Margin" Value="6,0,6,0"/>
+                        <Setter Target="grid_3_1.Height" Value="240"/>
+                        <Setter Target="grid_3_1.Width" Value="200"/>   
+                        <Setter Target="grid_3_1.Margin" Value="6,0,6,0"/>
+                        
+                        <Setter Target="fonticon_1_0.FontSize" Value="60"/>  
+                        <Setter Target="header_1_0.FontSize" Value="18"/>  
+                        <Setter Target="descripiton_1_0.FontSize" Value="14"/>
+                        <Setter Target="fonticon_1_1.FontSize" Value="60"/>  
+                        <Setter Target="header_1_1.FontSize" Value="18"/>  
+                        <Setter Target="descripiton_1_1.FontSize" Value="14"/> 
+                        
+                        <Setter Target="fonticon_2_0.FontSize" Value="60"/>  
+                        <Setter Target="header_2_0.FontSize" Value="18"/>  
+                        <Setter Target="descripiton_2_0.FontSize" Value="14"/>
+                        <Setter Target="fonticon_2_1.FontSize" Value="60"/>  
+                        <Setter Target="header_2_1.FontSize" Value="18"/>  
+                        <Setter Target="descripiton_2_1.FontSize" Value="14"/>  
+                        
+                        <Setter Target="fonticon_3_0.FontSize" Value="60"/>  
+                        <Setter Target="header_3_0.FontSize" Value="18"/>  
+                        <Setter Target="descripiton_3_0.FontSize" Value="14"/>
+                        <Setter Target="fonticon_3_1.FontSize" Value="60"/>  
+                        <Setter Target="header_3_1.FontSize" Value="18"/>  
+                        <Setter Target="descripiton_3_1.FontSize" Value="14"/>   
+                        
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="WideLayout">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="900"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="grid_1_0.Height" Value="380"/>
+                        <Setter Target="grid_1_0.Width" Value="320"/>  
+                        <Setter Target="grid_1_0.Margin" Value="8,0,8,0"/> 
+                        <Setter Target="grid_1_1.Height" Value="380"/>
+                        <Setter Target="grid_1_1.Width" Value="320"/> 
+                        <Setter Target="grid_1_1.Margin" Value="8,0,8,0"/> 
+
+                        <Setter Target="grid_2_0.Height" Value="380"/>
+                        <Setter Target="grid_2_0.Width" Value="320"/> 
+                        <Setter Target="grid_2_0.Margin" Value="8,0,8,0"/> 
+                        <Setter Target="grid_2_1.Height" Value="380"/>
+                        <Setter Target="grid_2_1.Width" Value="320"/> 
+                        <Setter Target="grid_2_1.Margin" Value="8,0,8,0"/> 
+
+                        <Setter Target="grid_3_0.Height" Value="380"/>
+                        <Setter Target="grid_3_0.Width" Value="320"/>  
+                        <Setter Target="grid_3_0.Margin" Value="8,0,8,0"/> 
+                        <Setter Target="grid_3_1.Height" Value="380"/>
+                        <Setter Target="grid_3_1.Width" Value="320"/>   
+                        <Setter Target="grid_3_1.Margin" Value="8,0,8,0"/> 
+
+                        <Setter Target="fonticon_1_0.FontSize" Value="160"/>  
+                        <Setter Target="header_1_0.FontSize" Value="24"/>  
+                        <Setter Target="descripiton_1_0.FontSize" Value="16"/>                         
+                        <Setter Target="fonticon_1_1.FontSize" Value="160"/>  
+                        <Setter Target="header_1_1.FontSize" Value="24"/>  
+                        <Setter Target="descripiton_1_1.FontSize" Value="16"/> 
+                        
+                        <Setter Target="fonticon_2_0.FontSize" Value="160"/>  
+                        <Setter Target="header_2_0.FontSize" Value="24"/>  
+                        <Setter Target="descripiton_2_0.FontSize" Value="16"/>
+                        <Setter Target="fonticon_2_1.FontSize" Value="160"/>  
+                        <Setter Target="header_2_1.FontSize" Value="24"/>  
+                        <Setter Target="descripiton_2_1.FontSize" Value="16"/> 
+                        
+                        <Setter Target="fonticon_3_0.FontSize" Value="160"/>  
+                        <Setter Target="header_3_0.FontSize" Value="24"/>  
+                        <Setter Target="descripiton_3_0.FontSize" Value="16"/>
+                        <Setter Target="fonticon_3_1.FontSize" Value="160"/>  
+                        <Setter Target="header_3_1.FontSize" Value="24"/>  
+                        <Setter Target="descripiton_3_1.FontSize" Value="16"/>  
+
+
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <ScrollViewer Background="White" VerticalScrollBarVisibility="Hidden">
+
+            <StackPanel>
+
+                <UniversalWrapPanel:UniversalWrapPanel Margin="8,10,8,0" Orientation="Horizontal" RenderTransformOrigin="0.5,0.5">
+                   
+                    <StackPanel  Name="grid_1_0" Height="200" Width="180" Margin="0,4,0,0">
+                        <FontIcon Name="fonticon_1_1" Glyph=" &#xE774;" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,6,0,0" Foreground="Black"/>
+                        <TextBlock Name="header_1_1" Text="VoteBox" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        <TextBlock Name="descripiton_1_1" Text="Sieh dir aktuelle Rückmeldungen von Unternehmen und Entwicklern an und erfahre, ob sie eine Windows 10 Universal App entwickeln werden oder nicht." FontSize="12" TextAlignment="Center" Foreground="Black" TextWrapping="WrapWholeWords"/>
+                    </StackPanel>
+                    <StackPanel Name="grid_1_1" Height="200" Width="180" Margin="0,4,0,0">
+                        <FontIcon Name="fonticon_1_0" Glyph=" &#xE172;" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,6,0,0" Foreground="Black"/>
+                        <TextBlock Name="header_1_0" Text="Rückmeldungen Ansehen" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                        <TextBlock Name="descripiton_1_0" Text="Sieh dir aktuelle Rückmeldungen von Unternehmen und Entwicklern an und erfahre, ob sie eine Windows 10 Universal App entwickeln werden oder nicht." FontSize="12" TextAlignment="Center" Foreground="Black" TextWrapping="WrapWholeWords"/>
+                    </StackPanel>
+
+
+                    <StackPanel Name="grid_2_0" Height="200" Width="180" Margin="0,4,0,0">
+                        <FontIcon Name="fonticon_2_0" Glyph=" &#xE719;" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,6,0,0" Foreground="Black"/>
+                        <TextBlock Name="header_2_0" Text="App ShowBox" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        <TextBlock Name="descripiton_2_0" Text="App ShowBox zeigt dir schnell und einfach verfügbare Apps die es Erfolgreich in den Store geschafft haben.&#13;&#13;Mit einem Klick kannst du die App ohne zu suchen im Store Aufrufen und Downloaden." FontSize="11" TextAlignment="Center" Foreground="Black" TextWrapping="WrapWholeWords"/>
+                    </StackPanel>
+                    <StackPanel Name="grid_2_1" Height="200" Width="180" Margin="0,4,0,0">
+                        <FontIcon Name="fonticon_2_1" Glyph=" &#xE72D;" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,6,0,0" Foreground="Black"/>
+                        <TextBlock Name="header_2_1" Text="App Wunsch" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        <TextBlock Name="descripiton_2_1" Text="Sende uns den Namen der App die dir im Store fehlt. Um den Rest kümmern wir uns wir senden dem Entwickler eine E-Mail.&#13;Du Brauchst nur noch zu warten! Wir werden die Antwort des Entwicklers in der Rubrik Rückmeldungen eintragen." FontSize="11" TextAlignment="Center" Foreground="Black" TextWrapping="WrapWholeWords"/>
+                    </StackPanel>
+
+                    <StackPanel Name="grid_3_0" Height="200" Width="180" Margin="0,4,0,0">
+                        <FontIcon Name="fonticon_3_0" Glyph=" &#xE76E;" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,6,0,0" Foreground="Black"/>
+                        <TextBlock Name="header_3_0" Text="Feedback senden" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        <TextBlock Name="descripiton_3_0" Text="Falls du uns Feedback senden möchtest, dann nutze ganz einfach das Kontaktformular und wähle dort als Kategorie Feedback senden aus. Denke auch bitte daran, die App im Store zu bewerten." FontSize="11" TextAlignment="Center" Foreground="Black" TextWrapping="WrapWholeWords"/>
+               </StackPanel>
+                    <StackPanel Name="grid_3_1" Height="200" Width="180" Margin="0,4,0,0">
+                        <FontIcon Name="fonticon_3_1" Glyph=" &#xE77B;" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,6,0,0" Foreground="Black"/>
+                        <TextBlock Name="header_3_1" Text="Allgemeine Fragen" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        <TextBlock Name="descripiton_3_1" Text="Bei allgemeinen Fragen kannst du das Kontaktformular nutzen. Wähle dafür die Kategorie 'Allgemeine Fragen' aus.&#13;&#13;Du kannst uns auch eine E-Mail an project-appgap@outlook.com schreiben." FontSize="11" TextAlignment="Center" Foreground="Black" TextWrapping="WrapWholeWords"/>
+                    </StackPanel>
+                </UniversalWrapPanel:UniversalWrapPanel>
+
+
+
+                <Button x:Name="continue_button"
+                    Margin="20"     Foreground="Black" BorderBrush="Black"
+                    HorizontalAlignment="Right" Click="continue_button_Click"/>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

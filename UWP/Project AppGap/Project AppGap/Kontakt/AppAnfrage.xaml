@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="Project_AppGap.Kontakt.AppAnfrage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project_AppGap.Kontakt"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"          
+    xmlns:adduplex="using:AdDuplex"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel Margin="10,5,10,0">
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition FromVerticalOffset="50" IsStaggeringEnabled="True"/>
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
+            <ToggleSwitch Name="languale_switch" OffContent="Deutsch" OnContent="English" RenderTransformOrigin="0.5,0.5"/>
+            <TextBox Name="AppName_txt" TextChanging="AppName_txt_TextChanging" Margin="0,10,0,0" RenderTransformOrigin="0.5,0.5"/>
+            <TextBox Name="Entwickler_txt" TextChanging="Entwickler_txt_TextChanging" InputScope="EmailSmtpAddress" Margin="0,10,0,0" RenderTransformOrigin="0.5,0.5"/>
+            <Button Name="Sende_btn" Click="Sende_btn_Click" HorizontalAlignment="Stretch" Margin="0,10,0,0" RenderTransformOrigin="0.5,0.5"/>
+        </StackPanel>
+        <ProgressRing Name="MyProgressRing" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="30" />
+        <adduplex:AdControl AdUnitId="205075" AppKey="0257c6d1-4635-4307-9466-b74f930fd92e" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Page>

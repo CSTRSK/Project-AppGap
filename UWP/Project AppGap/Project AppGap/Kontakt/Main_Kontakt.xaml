@@ -1,0 +1,98 @@
+﻿<Page
+    x:Class="Project_AppGap.Kontakt.Main_Kontakt"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project_AppGap.Kontakt"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:adduplex="using:AdDuplex"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <RelativePanel Background="#0078D7">
+                <Button x:Name="HamburgerHeaderButton" BorderThickness="0" Content="&#xE700;" FontFamily="Segoe MDL2 Assets" Foreground="White" Height="50" Width="50"  FontSize="21" Background="Transparent" Click="HamburgerHeaderButton_Click"/>
+                <TextBlock Name="header_txt" Foreground="White" FontWeight="Light" FontSize="18" RelativePanel.AlignLeftWith="HamburgerHeaderButton" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="50,0,0,0"/>
+            </RelativePanel>
+
+            <SplitView x:Name="MySplitView" Grid.Row="1" DisplayMode="CompactInline" IsPaneOpen="True" CompactPaneLength="50" OpenPaneLength="250">
+                <SplitView.Pane>
+                    <Grid>
+                        <ListBox SelectionMode="Single" SelectionChanged="ListBox_SelectionChanged">
+                            <ListBoxItem x:Name="startseite">
+                                <StackPanel Orientation="Horizontal">
+                                    <FontIcon Glyph="&#xE10F;" Height="25" Width="30" HorizontalAlignment="Left"/>
+                                    <TextBlock Name="startseite_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem x:Name="showboxs">
+                                <StackPanel Orientation="Horizontal">
+                                    <FontIcon Name="Main" Glyph="&#xE719;" Height="25" Width="30"/>
+                                    <TextBlock Name="showbox_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem x:Name="ruckmeldungen">
+                                <StackPanel Orientation="Horizontal">
+                                    <FontIcon Glyph=" &#xE172;" Height="25" Width="30"/>
+                                    <TextBlock Name="ruckmeldungen_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </ListBoxItem>   
+                            <ListBoxItem x:Name="voteboxs">
+                                <StackPanel Orientation="Horizontal">
+                                    <FontIcon Glyph="&#xE8E1;" Height="25" Width="20" Margin="5,0,0,0"/>
+                                    <TextBlock Name="votebox_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem x:Name="uber_uns">
+                                <StackPanel Orientation="Horizontal">
+                                    <FontIcon Glyph="&#xE946;" Height="25" Width="30"/>
+                                    <TextBlock Name="uber_uns_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem x:Name="kontakt">
+                                <StackPanel Orientation="Horizontal">
+                                    <Rectangle Fill="#0078D7" Width="4.5" Height="25" Margin="-15,0,0,0"/>
+                                    <FontIcon Glyph="&#xE13D;" Height="25" Width="30" Foreground="#0078D7"/>
+                                    <TextBlock Name="kontakt_txt" Margin="10,0,0,0" VerticalAlignment="Center" Foreground="#0078D7"/>
+                                </StackPanel>
+                            </ListBoxItem>
+
+                        </ListBox>
+
+                        <ListBox SelectionMode="Single" SelectionChanged="ListBox_SelectionChanged" VerticalAlignment="Bottom">
+                            <ListBoxItem x:Name="einstellungen">
+                                <StackPanel Orientation="Horizontal">
+                                    <FontIcon Glyph="&#xE115;" Height="25" Width="30"/>
+                                    <TextBlock Name="einstellungen_txt" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                        </ListBox>
+                    </Grid>
+                </SplitView.Pane>
+
+
+
+                <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalAlignment="Stretch">
+                    <Grid>
+                        <StackPanel Margin="20,0,20,0">
+                            <Button Name="Anfrage_an_entwickler" Click="Anfrage_an_entwickler_Click" HorizontalAlignment="Stretch" Margin="0,10,0,0"/>   
+                            <Button Name="Ruckmeldung_einsenden" Click="Ruckmeldung_einsenden_Click" HorizontalAlignment="Stretch" Margin="0,10,0,0"/>
+                            <Button Name="feedback_entwickler" Click="feedback_entwickler_Click" HorizontalAlignment="Stretch" Margin="0,20,0,0"/>
+                            <Button Name="allgemein_entwickler" Click="allgemein_entwickler_Click" HorizontalAlignment="Stretch" Margin="0,10,0,0"/>
+                        </StackPanel>
+                        <Frame Name="kontaktFrame"/>
+
+                    </Grid>
+                </ScrollViewer>
+
+
+
+            </SplitView>
+
+        </Grid>
+    </Grid>
+</Page>

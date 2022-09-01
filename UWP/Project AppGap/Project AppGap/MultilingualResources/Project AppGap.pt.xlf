@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="de-DE" target-language="pt" original="PROJECT APPGAP/STRINGS/DE-DE/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="PROJECT APPGAP/STRINGS/DE-DE/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="keineInternetVerbindung" translate="yes" xml:space="preserve">
+          <source>Deshalb können keine Rückmeldungen geladen werden. Bitte verbinde dich mit dem Internet, um alle Funktionen der App nutzen zu können.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Portanto, nenhum feedback pode ser carregado. Conecte-se à Internet, para ser capaz de usar todos os recursos do aplicativo.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Keine Internet Verbindung Text</note>
+        </trans-unit>
+        <trans-unit id="keinInternetHeader" translate="yes" xml:space="preserve">
+          <source>Hinweis: Du bist offline</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nota: Você está off-line</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Keine Internet Verbindung Header</note>
+        </trans-unit>
+        <trans-unit id="aktualisiere" translate="yes" xml:space="preserve">
+          <source>Aktualisiere</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atualização</target>
+        </trans-unit>
+        <trans-unit id="aktualisieren" translate="yes" xml:space="preserve">
+          <source>Aktualisieren</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Atualizando</target>
+        </trans-unit>
+        <trans-unit id="alteste" translate="yes" xml:space="preserve">
+          <source>Älteste</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Mais Antigo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Alt-Neu Sortierung</note>
+        </trans-unit>
+        <trans-unit id="app_fehlt" translate="yes" xml:space="preserve">
+          <source>App fehlt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Falta app</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App Fehlt Button</note>
+        </trans-unit>
+        <trans-unit id="app_veraltet" translate="yes" xml:space="preserve">
+          <source>App veraltet</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">App-obsoleto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App Veraltet Button</note>
+        </trans-unit>
+        <trans-unit id="a_to_z" translate="yes" xml:space="preserve">
+          <source>A-Z</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">A-Z</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A-Z Sortierung</note>
+        </trans-unit>
+        <trans-unit id="Designswitch_off" translate="yes" xml:space="preserve">
+          <source>Aus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fora</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Switch Button Aus</note>
+        </trans-unit>
+        <trans-unit id="Designswitch_on" translate="yes" xml:space="preserve">
+          <source>An</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">No</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Switch Button An</note>
+        </trans-unit>
+        <trans-unit id="GreetingTextBlock" translate="yes" xml:space="preserve">
+          <source>Was möchtest du machen?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">O que você faria?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Startseite Empfangs Text</note>
+        </trans-unit>
+        <trans-unit id="Header" translate="yes" xml:space="preserve">
+          <source>Project AppGap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Projeto AppGap</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App Name</note>
+        </trans-unit>
+        <trans-unit id="header_allgemein" translate="yes" xml:space="preserve">
+          <source>Allgemein</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Geral</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Allgemein Header</note>
+        </trans-unit>
+        <trans-unit id="Header_einstellungen" translate="yes" xml:space="preserve">
+          <source>Einstellungen</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Configurações</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Einstellung Header</note>
+        </trans-unit>
+        <trans-unit id="header_info" translate="yes" xml:space="preserve">
+          <source>Info</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Sobre</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Info Header</note>
+        </trans-unit>
+        <trans-unit id="Header_kontakt" translate="yes" xml:space="preserve">
+          <source>Kontakt</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">contato</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Kontakt Header</note>
+        </trans-unit>
+        <trans-unit id="Header_Rückmeldung" translate="yes" xml:space="preserve">
+          <source>Rückmeldung</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">comentários</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Rückmeldung Header</note>
+        </trans-unit>
+        <trans-unit id="Header_textvorlagen" translate="yes" xml:space="preserve">
+          <source>Textvorlagen</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Modelagem de Texto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Textvorlage Header</note>
+        </trans-unit>
+        <trans-unit id="Header_uberuns" translate="yes" xml:space="preserve">
+          <source>Über Uns</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Quem somos</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Über uns Header</note>
+        </trans-unit>
+        <trans-unit id="MainPage_button" translate="yes" xml:space="preserve">
+          <source>Textvorlagen versenden</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enviar modelos de texto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Startseite Button Textvorlage Versenden</note>
+        </trans-unit>
+        <trans-unit id="neueste_update_in_version" translate="yes" xml:space="preserve">
+          <source>- Ich arbeite noch nur kein Stress Manuel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">-Estou ainda apenas sem estresse Manuel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">-</note>
+        </trans-unit>
+        <trans-unit id="neues_in_version" translate="yes" xml:space="preserve">
+          <source>Neuigkeiten in dieser Version:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">O que há de novo nesta versão:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">-</note>
+        </trans-unit>
+        <trans-unit id="neuste" translate="yes" xml:space="preserve">
+          <source>Neuste</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Mais recente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Neu-Alt Sortierung</note>
+        </trans-unit>
+        <trans-unit id="news_header" translate="yes" xml:space="preserve">
+          <source>News</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Postar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">News Header</note>
+        </trans-unit>
+        <trans-unit id="spiel_fehlt" translate="yes" xml:space="preserve">
+          <source>Spiel fehlt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jogo está faltando</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Spiel fehlt</note>
+        </trans-unit>
+        <trans-unit id="spiel_veraltet" translate="yes" xml:space="preserve">
+          <source>Spiel veraltet</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jogo obsoleto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Spiel Veraltet</note>
+        </trans-unit>
+        <trans-unit id="Startseite_txt" translate="yes" xml:space="preserve">
+          <source>Startseite</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Página Inicial</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Startseite Header</note>
+        </trans-unit>
+        <trans-unit id="team_header" translate="yes" xml:space="preserve">
+          <source>Team und Mitwirkende</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Equipe e colaboradores</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team_header</note>
+        </trans-unit>
+        <trans-unit id="z_to_a" translate="yes" xml:space="preserve">
+          <source>Z-A</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Z-A</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Z-A Sortierung</note>
+        </trans-unit>
+        <trans-unit id="überuns_allgemein_text" translate="yes" xml:space="preserve">
+          <source>Jeder treue Windows Nutzer weiß, dass im Windows Store nach wie vor eine App-Lücke besteht. Diese sollte sich im Laufe der Zeit mit Windows 10 schließen. Universal Apps, Project Islandwood und Project Westminster sollen möglichst viele Entwickler für eine Windows App anwerben. Um die Entwicklung des Windows Stores weiter voran zu treiben, versuchen wir verschiedene Unternehmen und Entwickler davon zu überzeugen, eine Windows App zu entwickeln. 
+
+Deshalb hat das Team von Project AppGap Textvorlagen zusammengestellt, welche die wichtigsten Infos zur App-Entwicklung, aktuelle Zahlen zu Windows 10 sowie verschiedene Vergleiche und Visionen beinhalten. Dadurch könnt ihr einfach und bequem eine E-Mail mit einem unserer Texte an die gewünschten Unternehmen und Entwicklern schreiben, um sie von einer Windows App zu überzeugen und ihnen eventuell bereits ein paar Worte zur Entwicklung einer App zu entlocken. Erhaltet ihr eine Rückmeldung, könnt ihr sie in unserer integrierten Datenbank in der App und auf der Website hinzufügen.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Todos os fiéis usuários de Windows sabem que ainda há uma lacuna de app na loja de Windows. Isto deve fechar com o Windows 10 no decorrer do tempo. Universais apps, Islandwood de projeto e projeto Westminster deveria recrutar como muitos desenvolvedores para um aplicativo do Windows. Para promover o desenvolvimento da loja Windows, tentamos convencer várias empresas e desenvolvedores para desenvolver um aplicativo do Windows. 
+ 
+Para a equipe de modelos de texto de AppGap projeto compilou, contendo as informações mais importantes sobre o desenvolvimento de app, figuras atuais no Windows 10 e várias comparações e visões. Desta forma você pode gravar facilmente e convenientemente um e-mail com um dos nossos textos para a desejada empresas e desenvolvedores, para convencê-los de um aplicativo do Windows e você já pode ter algumas palavras sobre o desenvolvimento de um app para eliciar. Você receberá uma mensagem, você pode adicioná-los em nosso banco de dados integrado no app e no site.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">überuns_allgemein_text</note>
+        </trans-unit>
+        <trans-unit id="startseite_rückmeldung_btn" translate="yes" xml:space="preserve">
+          <source>Rückmeldungen ansehen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ver gabarito</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Rückmeldungen ansehen</note>
+        </trans-unit>
+        <trans-unit id="Allgemeiner_Datenschutz" translate="yes" xml:space="preserve">
+          <source>Allgemeiner Datenschutz</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Proteção de dados gerais</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Allgemeiner Datenschutz </note>
+        </trans-unit>
+        <trans-unit id="Allgemeiner_Datenschutz_txt" translate="yes" xml:space="preserve">
+          <source>Die Betreiber der Project AppGap Website und App nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
+Die Nutzung unserer Webseite und App ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name oder E-Mail-Adressen) erhoben werden, erfolgt dies stets auf freiwilliger Basis. Diese Daten werden nicht an Dritte weitergegeben.
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Projeto AppGap site e app operadores levar a proteção de seus dados pessoais muito a sério. Tratamos os seus dados pessoais confidencialmente e de acordo com a legislação de proteção de dados e esta política de privacidade. 
+o uso do nosso site e o app é possível sem indicação de dados pessoais. Tanto quanto pessoalmente identificáveis (como nome ou endereços de E-Mail) são coletados em nossas páginas, isto é numa base voluntária. Esses dados não serão divulgados a terceiros. 
+Destacamos a transmissão de dados na Internet (por exemplo, ao se comunicar por E-Mail) podem apresentar falhas de segurança. Uma proteção completa dos dados contra o acesso por terceiros não é possível. 
+Do uso do quadro de impressão obrigação publicou dados de contato de terceiros para o envio de materiais de propaganda e informação não expressamente solicitados está expressamente excluído. Os operadores se reservam as medidas legais expressamente no caso de informações promocionais não solicitadas, tais como E-mails de spam.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Allgemeiner Datenschutz Text</note>
+        </trans-unit>
+        <trans-unit id="Auskunft" translate="yes" xml:space="preserve">
+          <source>Auskunft, Löschung, Sperrung</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Informações, anulação, revogação</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Datenschutz Auskunft</note>
+        </trans-unit>
+        <trans-unit id="Auskunft_txt" translate="yes" xml:space="preserve">
+          <source>Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns per Kontaktformular oder unter kontakt@project-appgap.tk wenden.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">A qualquer momento, você tem o direito de livre informação sobre seus dados pessoais armazenados, cuja origem e destinatário e a finalidade do tratamento dos dados e o direito de correção, bloqueio ou eliminação desses dados. Você pode entrar em contato, também quanto mais perguntas sobre o assunto de dados pessoais para nós através do formulário de contato ou em kontakt@project-appgap.tk.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Datenschutz Text Auskunft</note>
+        </trans-unit>
+        <trans-unit id="FAQ" translate="yes" xml:space="preserve">
+          <source>FAQ</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">perguntas frequentes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FAQ</note>
+        </trans-unit>
+        <trans-unit id="beachten_txt" translate="yes" xml:space="preserve">
+          <source>Du solltest die Textvorlage zumindest an den Stellen, an denen [Unternehmen eintragen] steht, gerne aber auch darüber hinaus, 
+entsprechend anpassen. Setzte auch deinen Namen darunter. Achte darauf dass du nicht immer die gleiche Vorlage an Unternehmen schickst.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Você deve o modelo de texto, pelo menos nos lugares onde [Digite empresa] é, também, mas como 
+ajustar conformemente. Coloque seu nome abaixo. Certifique-se de que você enviar não têm sempre as mesmas empresas de modelo.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FAQ Beachten Text</note>
+        </trans-unit>
+        <trans-unit id="Haftungsausschluss" translate="yes" xml:space="preserve">
+          <source>Haftungsausschluss</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">aviso de isenção de responsabilidade</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Haftungsausschluss Header</note>
+        </trans-unit>
+        <trans-unit id="Haftungsausschluss_txt" translate="yes" xml:space="preserve">
+          <source>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nossa oferta contém links para sites externos de terceiros, cujo conteúdo não temos influência. Portanto, podemos assumir qualquer responsabilidade por este conteúdo estrangeiro. O conteúdo do vinculado lados sempre o respectivo fornecedor ou operador desses sites é responsável. Os locais referenciados foram verificados no momento da ligação para possíveis violações da lei. Conteúdos ilegais não eram reconhecíveis no momento da ligação. No entanto, um controle permanente dos sites vinculados não é razoável sem provas concretas de uma violação da lei. Quando se tornar ciente das violações, Nós removeremos imediatamente tais ligações.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Haftungsausschluss Text</note>
+        </trans-unit>
+        <trans-unit id="Kontaktformular" translate="yes" xml:space="preserve">
+          <source>Kontaktformular</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">formulário de contato</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Kontaktformular Header FAQ</note>
+        </trans-unit>
+        <trans-unit id="Kontaktformular_txt" translate="yes" xml:space="preserve">
+          <source>Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten werden nicht an Dritte weitergegeben.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Se você chegou até nós através do formulário de contato solicita informações do formulário de pedido, incluindo os dados de contato especificados por você, para efeitos de processamento da solicitação e para o caso de perguntas para nós são armazenadas. Esses dados não serão divulgados a terceiros.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Kontaktformular Text FAQ</note>
+        </trans-unit>
+        <trans-unit id="Mail_Unternehmen" translate="yes" xml:space="preserve">
+          <source>Wo finde ich die E-Mail Adressen der Unternehmen?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Onde posso encontrar os endereços de email das empresas?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mail Unternemen  FAQ Header</note>
+        </trans-unit>
+        <trans-unit id="Mail_Unternehmen_txt" translate="yes" xml:space="preserve">
+          <source>Im Normalfall findest du diese auf der Webseite des Unternehmens unter "Kontakt" oder "Impressum". Wir werden in Zukunft auf der Webseite und in unserer App eine Auflistung der anvisierten Unternehmen bereitstellen.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Normalmente, você pode encontrá-los no site da empresa "Contato" ou "Imprimir". Nós forneceremos uma coleção de empresas-alvo no futuro no site e em nosso aplicativo.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mail Unternemen  FAQ Text</note>
+        </trans-unit>
+        <trans-unit id="Nutzung_von_Twitter" translate="yes" xml:space="preserve">
+          <source>Datenschutzerklärung für die Nutzung von Twitter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Política de privacidade para o uso do Twitter</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Datenschutz Twitter Header</note>
+        </trans-unit>
+        <trans-unit id="Nutzung_von_Twitter_txt" translate="yes" xml:space="preserve">
+          <source>In unserer App sowie auf unserer Website sind Funktionen des Dienstes Twitter eingebunden. Diese Funktionen werden angeboten durch die Twitter Inc., Twitter, Inc. 1355 Market St, Suite 900, San Francisco, CA 94103, USA. Durch das Benutzen von Twitter und der Funktion "Re-Tweet" werden die von Ihnen besuchten Webseiten mit Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter übertragen.
+Wir weisen darauf hin, dass wir als Anbieter der App keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter https://twitter.com/privacy. 
+Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter https://twitter.com/account/settings ändern.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Em nosso aplicativo, bem como em nosso site são características do serviço Twitter. Esses recursos são oferecidos pelo Twitter Inc., mercado de Twitter, Inc. 1355 St, Suite 900, San Francisco, CA 94103, Estados Unidos. Através do uso de Twitter e a função "Re-Tweet", páginas da Web que você visita são vinculadas com sua conta do Twitter e notificados outros usuários. Transmitido dados ao Twitter. 
+Indicamos que não recebemos nenhum conhecimento como provedor do app do conteúdo dos dados transmitidos e a sua utilização através do Twitter. Você vê isso na declaração de proteção de dados do Twitter https://twitter.com/privacy. 
+, Você pode alterar suas configurações de privacidade no Twitter nas configurações de conta sob https://twitter.com/account/settings.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Datenschutz Twitter Text</note>
+        </trans-unit>
+        <trans-unit id="Ruckmeldung" translate="yes" xml:space="preserve">
+          <source>Ich habe eine Rückmeldung erhalten. Wie soll ich sie euch zukommen lassen?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tenho recebido uma confirmação. Como eu deveria deixá-los vir até você?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Rückmeldung FAQ header</note>
+        </trans-unit>
+        <trans-unit id="Ruckmeldung_txt" translate="yes" xml:space="preserve">
+          <source>Über die in der Webseite und in der App implementierte Funktion "Rückmeldung" senden, kannst du deine Rückmeldung - bitte auf das Wesentliche reduziert - direkt an die Datenbank weiterreichen. Wenn dir das nicht ganz behagt, kannst du die Rückmeldung alternativ per E-Mail an project-appgap@outlook.com weiterleiten.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sobre o site e a função de enviar implementado app "gabarito", pode você reduzido - passar sobre seus comentários - por favor a chave diretamente ao banco de dados. Se não é bem como amigos, como alternativa você pode encaminhar o feedback por e-mail para project-appgap@outlook.com.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Rückmeldungeinsenden FAQ Text</note>
+        </trans-unit>
+        <trans-unit id="textvorlagen_einsenden" translate="yes" xml:space="preserve">
+          <source>Textvorlage einsenden</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apresentar o modelo de texto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">textvorlagen_einsenden</note>
+        </trans-unit>
+        <trans-unit id="Urheberrecht_app" translate="yes" xml:space="preserve">
+          <source>Urheberrecht (App)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright (app)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Urheberrecht_app Header</note>
+        </trans-unit>
+        <trans-unit id="Urheberrecht_app_txt" translate="yes" xml:space="preserve">
+          <source>Die ausdrücklich durch die Betreiber erstellten Inhalte und Werke in der Project AppGap App dienen ausdrücklich zur Vervielfältigung, Bearbeitung und Verbreitung.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">O conteúdo criado expressamente pelos operadores e obras no projeto AppGap app servem especificamente para a duplicação, processamento e divulgação.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Urheberrecht_app Text</note>
+        </trans-unit>
+        <trans-unit id="Urheberrecht_web" translate="yes" xml:space="preserve">
+          <source>Urheberrecht (Website)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Copyright (site)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Urheberrecht_web Header</note>
+        </trans-unit>
+        <trans-unit id="Urheberrecht_web_txt" translate="yes" xml:space="preserve">
+          <source>Die ausdrücklich durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung der Betreiber. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">O conteúdo criado expressamente pelo site e obras nestas páginas estão sujeitas a lei alemã de direitos autorais. A reprodução, edição, distribuição e qualquer tipo de exploração fora dos limites da lei de direitos autorais exigem o consentimento por escrito do operador. Downloads e cópias deste site são permitidas para uso privado, não comercial. Na medida em que o conteúdo deste site não pelo operador foram criados, os direitos autorais são respeitados de terceiros. Em particular, o conteúdo identificado terceiros como tal. Se você tomar conhecimento de uma violação de direitos autorais, pedimos uma dica. Quando se tornar ciente das violações, Nós removeremos imediatamente tal conteúdo.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Urheberrecht_web Text</note>
+        </trans-unit>
+        <trans-unit id="verantwortlicher_header_f" translate="yes" xml:space="preserve">
+          <source>Verantwortlicher Betreiber </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Operador responsável </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">﻿Verantwortlicher_Betreiber Datenschutz Header Fett</note>
+        </trans-unit>
+        <trans-unit id="verantwortlicher_header_s" translate="yes" xml:space="preserve">
+          <source>(Angaben gemäß § 5 TMG)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">(Informações de acordo com o parágrafo 5º TMG)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">﻿Verantwortlicher_Betreiber Datenschutz Header Normal</note>
+        </trans-unit>
+        <trans-unit id="﻿Verantwortlicher_Betreiber" translate="yes" xml:space="preserve">
+          <source>﻿  CSTRSK
+  Am Sudhaus 9
+  89077 Ulm
+  project-appgap@outlook.com</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">CSTRSK
+ no brewhouse 9
+ 89077 Ulm
+ project-appgap@outlook.com</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">﻿Verantwortlicher_Betreiber Datenschutz</note>
+        </trans-unit>
+        <trans-unit id="sende_mail" translate="yes" xml:space="preserve">
+          <source>Senden</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enviar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Senden Button</note>
+        </trans-unit>
+        <trans-unit id="appfehlt_vorlage_1" translate="yes" xml:space="preserve">
+          <source>Sehr geehrte Damen und Herren,
+@%
+Windows 10 gibt es nun seit mehr als ein Jahr und wurde bereits mehr als 450 Millionen mal installiert. Der Windows Store wurde bereits mehr als 5 Milliarden mal besucht und Apps heruntergeladen worden. Deshalb stellt sich für mich die Frage, wer auf dieser Plattform, mit großer Nachfrage nach Apps, nicht auch mit eigenen Apps gut aufgestellt sein will?  
+@%
+Leider gibt es Ihre App [APPNAME] noch nicht auf der Windows Plattform. Deshalb möchte ich Ihnen mit diesem Schreiben nahebringen, dass eine Entwicklung Ihrer App für Windows Geräte sehr profitabel sein kann. Mit „Universal Windows Apps“ ist es möglich, eine App gleichzeitig für den PC und das Smartphone mit Windows 10 zu entwickeln. Diese Apps lassen sich dadurch auch auf Tablets, Notebook, der Xbox One sowie auf der Microsoft HoloLens installieren. Das Beste daran für Sie als Entwickler ist, dass der Basis-Code der Apps immer gleich ist und somit lediglich kleinere Anpassungen, wie zum Beispiel zur besseren Darstellung auf unterschiedlichen Displaygrößen, nötig sind. 
+@%
+Da Sie Ihre App bereits auf der iOS-Plattformen anbieten, sollte es nicht schwer sein diese zu Windows zu portieren. Mit dem „Project Islandwood“ ist es möglich, eine iOS App in eine Windows 10 App umzuwandeln. Nach ein paar weiteren Eingriffen in den Code, um beispielsweise bestimmte Windows Funktionen, wie die Cortana-Integration, einzubauen, kann die App für die genannten Geräte veröffentlicht werden. Hier finden Sie noch weitere Infos zu Project Islandwood:  https://dev.windows.com/en-us/bridges/ios  sowie https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+@%
+Ihre neu entwickelte oder portierte App können Sie anschließend für alle möglichen Geräte veröffentlichen, die Windows 10 als Betriebssystem nutzen. Der Ableger Windows 10 Mobile ist das derzeitige Betriebssystem für Smartphones von Microsoft. Auch hier können die Universal Apps installiert werden. Der Marktanteil von Windows 10 Mobile mag zwar nicht groß sein, doch die Rede von Apps für Windows Smartphones ist hier fehl am Platz, denn es geht um Windows 10, welches den größten Marktanteil weltweit hat und sich zudem im rasanten Wachstum befindet. Die meisten Nutzer Ihrer App sind vermutlich mit Android und iOS unterwegs, doch wenn die Nutzer Ihre App auch auf dem weitest verbreiteten Betriebssystem, Windows, finden könnten, wäre das „Allround-Packet“ gelungen. Wenn Sie eine Windows 10 App entwickeln, ist die Smartphone App (auf Windows 10 Mobile) sozusagen nur ein schöner Nebeneffekt.
+@%
+Ich hoffe, ich konnte Sie nun davon überzeugen, dass in einer Windows 10 App sehr großes Potential steckt. Mich würde es freuen, wenn Sie die Entwicklung einer solchen Universal App in Ihrem Unternehmen nochmals überdenken und sich einen Ruck geben, endlich den Schritt zu wagen, eine App für Windows Nutzer zu entwickeln. Vielleicht können Sie bereits ein paar Worte zur Entwicklung der App verlieren und mir scheiben, ob eine App in Arbeit ist, der Markt vorerst noch überwacht bzw. die Entwicklung der App noch überlegt werden muss, oder ob Sie partout keine Windows App entwickeln möchten. Vielleicht gibt es bei letzterem einen bestimmten Grund, den sie mir nennen möchten. Als Grund den Marktanteil von Windows 10 zu nennen erachte ich jedoch als nicht angebracht.
+@%
+Vielen Dank für Ihre Antwort bereits im Voraus.
+@%
+Mit freundlichen Grüßen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senhoras e senhores,
+@%
+10 Windows existe há mais de um ano e foi instalado mais de 450 milhões de vezes. A loja do Windows foi visitada mais de 5 bilhões de vezes e baixei apps. Então me surge a pergunta, quem quer ser bem posicionado sobre esta plataforma, com grande demanda para apps, nem mesmo com apps próprios?  
+@%
+Infelizmente lá seu app [APPNAME] ainda não disponível na plataforma Windows. Portanto, eu gostaria de trazer-lhe de perto esta carta, um desenvolvimento de seu aplicativo para dispositivos do Windows pode ser muito rentável. Com "universal Windows apps" é possível desenvolver um app para o PC e o Smartphone com o Windows 10. Esses aplicativos também são comprimidos, caderno, um Xbox, bem como a instalação do Microsoft HoloLens. A melhor coisa para você como um desenvolvedor é que o código-base dos apps é o mesmo e, portanto, apenas pequenos ajustes como são necessárias por exemplo para melhor representação em vários tamanhos de exibição. 
+@%
+Ter seu app já nas plataformas iOS, não deve ser difícil para portá-lo para Windows. Com o "projeto Islandwood", é possível converter um iOS app 10 app em um Windows. Após alguns mais intervenção no código para incorporar, por exemplo, certos recursos do Windows, tais como a integração de Cortana, o aplicativo para os dispositivos mencionados pode ser publicada. Aqui você vai encontrar mais informações sobre o projeto Islandwood: https://dev.windows.com/en-us/bridges/ios e https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+podem @%
+seu app recentemente desenvolvido ou portado, então para todos os possíveis dispositivos que usam o sistema operacional do Windows 10 publicar. O Windows é o sistema operacional atual para Smartphones Microsoft 10 móveis. Também é aqui que você pode instalar apps Universal. A quota de mercado do Windows pode não ser grande 10 móvel, mas conversa de apps para smartphones Windows aqui é fora do lugar, porque vai para Windows 10, que tem o maior mercado compartilhar no mundo e também está em rápido crescimento. A maioria dos usuários do seu aplicativo são, provavelmente, com Android e iOS, mas os usuários mais seu app na amplamente utilizado sistema operacional, Windows, localizar pudesse, seria o "pacote all-round" o sucessor. Se você estiver desenvolvendo um aplicativo do Windows 10, é o Smartphone app (em 10 de Windows mobile) por assim dizer apenas um efeito colateral agradável. 
+@%
+espero que agora posso convencê-la que o app tem um potencial muito grande em um Windows 10. Seria bom se você app universal em sua organização reconsiderar o desenvolvimento de tais e dar uma sacudida, finalmente o passo a tomar para desenvolver um aplicativo para usuários do Windows. Talvez você pode já dizer algumas palavras sobre o desenvolvimento do app e meus discos, se é um app no trabalho, deve ser o mercado de momento ainda monitorado ou pensando em desenvolver o app ainda, ou se você deseja não desenvolver partout nenhum app do Windows. Talvez haja uma razão que quiserem chamar-me neste último. Para chamar a quota de mercado de 10 Windows como uma razão, considero tão inapropriado. 
+@%
+Obrigado pela sua resposta já antecipadamente
+ @%
+Atenciosamente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App Fehlt Vorlage 1</note>
+        </trans-unit>
+        <trans-unit id="appfehlt_vorlage_2" translate="yes" xml:space="preserve">
+          <source>Sehr geehrte Damen und Herren,
+@%
+Ich frage mich immer wieder warum es eigentlich die App [APPNAME] von Ihnen für Windows 10 Geräte (PCs, Notebooks, Tablets, Smartphones, Xbox und Microsoft HoloLens) nicht gibt. Windows 10 ist das weit verbreitetste System mit weltweiter Anbindung an einen großen App-Store und ich habe das Gefühl, dass Ihnen das noch nicht ganz bewusst ist.
+@%
+Dabei können Sie mit einer Art "Brücke" von Microsoft, namens "Project Islandwood" (dazu können sie hier httts://dev.windows.com/en-us/bridges/ios und hier  https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/  mehr erfahren) Ihre iOS-App direkt und in wenigen Schritten auf die Windows 10 App-Plattform portieren. Die umgewandelte App ist dann zugleich auf allen anderen Geräten von Smartphones über Tablets bis hin zum PC verfügbar, weil Windows 10 auf all diesen Geräten den gleichen Basis-Code verwendet.
+@%
+Es nimmt nur sehr wenig Zeit ein und ist sehr kostengünstig, mit diesem Tool eine App für die Windows 10 Plattform zu erstellen. Es würde mich und mehr als 450 Millionen andere Windows-Nutzer sicherlich freuen, wenn Sie von sich hören lassen und mir bestätigen können eine App für Windows 10 zu entwickeln.
+@%
+Ich wäre Ihnen dankbar, wenn Sie sich die Sache mal anschauen könnten und mir dementsprechend eine Rückmeldung geben können.
+@%
+Mit freundliche Grüßen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senhoras e senhores,
+@%
+eu quero saber sempre novamente porque na verdade o app [APPNAME] você para Windows 10 dispositivos (PCs, notebooks, tablets, telefones inteligentes, Xbox e Microsoft HoloLens) não há nenhum. 10 Windows é o sistema de longe mais comum com acesso mundial para uma loja de aplicativos grandes e tenho um pressentimento que isso ainda não está ciente de você. 
+@%
+Você pode manter seu app iOS com uma espécie de "Ponte" pela Microsoft, chamado "Projeto Islandwood" (para fazer para que eles possam aprender aqui httts://dev.windows.com/en-us/bridges/ios e aqui https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/) diretamente e em alguns passos no 10 plataforma app portabilidade Windows. O convertido app está disponível em todos os outros dispositivos de smartphones mais comprimidos até o PC, em seguida, ao mesmo tempo porque Windows 10 em todos estes dispositivos usado o mesmo código base. 
+@%
+Leva muito pouco tempo e é muito rentável, use esta ferramenta para criar um aplicativo para a plataforma Windows 10. Certamente pareceria para a frente eu e mais de 450 milhões outros usuários de Windows, se você ouve falar e pode confirmar-me para desenvolver um aplicativo para Windows 10. 
+@%
+eu ficaria grato se pudesse olhar para a coisa em si e, assim, dar-me um gabarito can.
+ @%
+Com saudações amistosas</target>
+        </trans-unit>
+        <trans-unit id="appfehlt_vorlage_3" translate="yes" xml:space="preserve">
+          <source>Sehr geehrte Damen und Herren,
+@%
+Leider ist mir aufgefallen, dass Sie Ihre App [APPNAME] nicht im Windows 10 Store, sondern nur im iOS-und Android-Store anbieten. Dies ist leider sehr frustrierend, da auf all meinen Geräten das Windows 10 Betriebssystem läuft. Es ist mir auch ein Rätsel, warum Sie Ihre App auf dem am weitesten verbreiteten Betriebssystem nicht anbieten.
+@%
+Momentan hat Windows 10 weit über 450 Millionen Nutzer und nach den Prognosen von Microsoft selbst sollten es im Jahr 2018 über 1 Milliarde sein. Sie lassen sich also eine der potentiell größten Einnahmequelle der Welt entgehen.
+@%
+Ich möchte Sie darauf hinweisen, dass Microsoft ein neues Tool namens 'Project Islandwood' (weitere Infos finden Sie hier: https://dev.windows.com/en-us/bridges/ios ) gratis zur Verfügung stellt. Mit diesem Tool können Sie in kurzer Zeit Ihre iOS-App in eine Windows 10-App umwandeln bzw. portieren. Das Gute daran ist, dass nach der Portierung die Windows-App auf allen anderen Windows Geräten verfügbar ist, da alle den Windows 10 Basis-Code verwenden. Sie schlagen also mehrere Fliegen mit einer Klatsche. Hier noch ein einfaches Paradebeispiel:  https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios
+@%
+Ich hoffe Sie werden sich diese Chance nicht entgehen lassen und sich eine Windows-App Programmierung oder auch eine Portierung mit dem neuen Gratis-Tool 'Project Islandwood' überlegen. Sie würden mir und Millionen anderer Windows Nutzern das Leben auf unseren Windows 10 Geräten massiv vereinfachen und könnten so eine neue Einnahmequelle generieren.
+@%
+Ich würde mich sehr über eine Stellungnahme Ihrerseits freuen.
+@%
+Mit freundlichen Grüßen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Querida Senhoras e senhores,
+@%
+infelizmente, notei que você seu app [APPNAME] não nas janelas da loja 10, mas só no iOS - e Android-loja oferta. Isso é muito frustrante, porque o Windows executa 10 sistema operacional em todos os meus dispositivos. É também um mistério por que você não oferece seu aplicativo no sistema operacional mais utilizado. 
+@%
+Atualmente tem distante mais 450 milhões usuários Windows 10, e de acordo com as previsões da Microsoft em si deve ser no ano 2018 mais 1 bilhão. Saudades de um do potencialmente maior fonte de renda do mundo. 
+@%
+eu gostaria de salientar, que a Microsoft uma nova ferramenta chamada 'Projeto Islandwood' (mais informação pode ser encontrada aqui: https://dev.windows.com/en-us/bridges/ios) fornece gratuitamente. Com esta ferramenta, você pode converter seu app iOS em um aplicativo Windows 10 em um curto período de tempo ou porto. A boa notícia é que o app do Windows em todos os outros dispositivos do Windows após a porta está disponível, desde que todos usam o Windows 10 código-base. Então você bateu vários coelhos com uma cajadada. Aqui ainda é um exemplo simples de desfile: https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios
+@%
+espero que você não perca esta oportunidade e considerar uma programação de aplicativo do Windows ou também uma porta com a nova ferramenta 'Projeto Islandwood'. Você iria simplificar 10 vida de dispositivos sólidos no nosso Windows Me e milhões de outros usuários de Windows e pode gerar uma nova fonte de renda. 
+@%
+eu iria sobre um parecer sobre sua parte são feliz.
+ @%
+Atenciosamente</target>
+        </trans-unit>
+        <trans-unit id="appfehlt_vorlage_en1" translate="yes" xml:space="preserve">
+          <source>Dear Sir or Madame,
+ @%
+Windows 10 is there now since the end of July 2015 and achieved more than 400 million installations and also 5 billion visits in the Windows store. Who doesn't want to be well prepared with own apps on this platform, with great demand for apps?
+ @%
+Unfortunately, your app [APP NAME] is not available on the Windows platform yet. So with this letter I would like to convince you, that a development for Windows 10 devices can be quite profitable. With the option of universal apps, it is possible to install an app not only on a PC, a laptop, a tablet or a smartphone, it is even possible to install it on the Xbox One, the Surface Hub and on the HoloLens, a virtual reality headset. And the great thing is: Only one app-code and only small code-interventions in orfer to lay out the apps design properly to all screen sizes are needed. Of course, different versions for diffeent devices are also supported.
+ @%
+Your apps are already on other platforms (Android and iOS), so it should not be difficult to port it over to Windows. Microsoft offers tools like 'Project Islandwood', which make it possible to „convert“ an iOS app to a Windows app. After a few further interventions in the code in order to incorporate, for example, certain Windows features (such as Cortana integration), the app can be published for the mentioned devices. Here are more information about project Islandwood: https://dev.windows.com/en-us/bridges/ios and https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+  @%
+You can then publish the newly developed or ported app for all possible devices that use Windows 10 as an operating system. Windows 10 Mobile is the current operating system from Microsoft for Smartphones, which also support universal apps. The market share of Windows phones is not the greatest, but I'm talking about Windows 10, which has the largest market share in the world. Most users of your app use Android and iOS, but if your users could find your app on the Windows platform as well, you would offer an "all-round package". If you are developing a Windows 10 app, then the smartphone app (on Windows 10 mobile) is just a nice side-effect.
+@%
+I hope I could convince you that there ist very big potential in a Windows 10 app. I would be glad, if you would reconsider the development of a Windows 10 universal app in your company and finally take the step to develop an app for Windows users. Maybe you can already say a few words about the development of the app and with that, whether there is an app in progress, whether the market is still watched, whether an app is considered, or whether you definitely don't want to develop a Windows app.
+ @%
+Thank you in advance for your response.
+@%
+With kind regards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Caro senhor ou senhora,
+ @%
+10 Windows está lá agora, desde o final de julho de 2015 e alcançado mais de 400 milhões de instalações e então 5 bilhões visitas na loja de Windows. Quem não quer estar bem preparado com apps próprios nesta plataforma, com grande demanda para apps? 
+@%
+Infelizmente, seu app [NOME do APP] não ainda disponível na plataforma Windows. Então com esta carta eu gostaria de te convencer que um desenvolvimento para dispositivos Windows 10 pode ser muito rentável. Com a opção de universais apps, é possível instalar a app não só em um PC, um laptop, um tablet ou um smartphone, é possível instalá-lo no Xbox, o hub de superfície e sobre o HoloLens, um fone de ouvido da realidade virtual. E o melhor é: apenas um app código e apenas código pequena intervenção na orfer para esquematizar o design de aplicativos corretamente para todos os tamanhos de tela são necessários. Claro, versões diferentes para diffeent dispositivos são suportadas. 
+@%
+Seus apps já estão em outras plataformas (Android e iOS), então não deve ser difícil para portá-lo sobre para o Windows. Microsoft oferece ferramentas como 'Islandwood ' do projeto, que tornam possível a "converter" um app iOS para um aplicativo do Windows. Após alguns mais intervenção no código para incorporar, por exemplo, certos Windows funções (tais como Cortana integração), o app pode ser publicado para os dispositivos mencionados. Aqui estão mais informações sobre o projeto de Islandwood: https://dev.windows.com/en-us/bridges/ios e https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+ @%
+você pode, em seguida, publicar o app recentemente desenvolvido ou portado para todos os possíveis dispositivos que usam o Windows como sistema operacional 10. Windows Mobile 10 é o atual sistema operacional da Microsoft para smartphones, que, portanto, suporte universais apps. A quota de mercado dos telefones de Windows não é das melhores, mas estou a falar de Windows 10, que tem o maior mercado de partilhar o mundo. A maioria dos usuários do seu aplicativo usar Android e iOS, mas se seus usuários poderiam encontrar seu app na plataforma Windows também, oferecerem ao "pacote all-round". Se você estiver desenvolvendo um aplicativo do Windows 10, em seguida, o aplicativo de smartphone (no Windows mobile 10) é apenas um efeito colateral agradável. 
+@%
+espero que eu poderia convencê-lo que tem o app é muito grande potencial em um Windows 10. Eu ficaria feliz, se você poderia reconsiderar o desenvolvimento de um aplicativo universal 10 Windows em sua empresa e finalmente dar o passo para desenvolver a app para usuários do Windows. Talvez você já pode dizer algumas palavras sobre o desenvolvimento do app e com isso, se existe na app em andamento, se o mercado é ainda observado, se na app é considerado, ou se você definitivamente não quer desenvolver um aplicativo do Windows. 
+@%
+Agradeço antecipadamente pela sua resposta
+ . @%
+Com lembranças de criança</target>
+        </trans-unit>
+        <trans-unit id="appveraltet_vorlage_1" translate="yes" xml:space="preserve">
+          <source>Sehr geehrte Damen und Herren,
+@%
+Windows 10 gibt es nun seit mehr als ein Jahr und wurde bereits mehr als 400 Millionen mal installiert. Der Windows Store wurde bereits mehr als 5 Milliarden mal besucht und Apps heruntergeladen worden. Deshalb stellt sich für mich die Frage, wer auf dieser Plattform, mit großer Nachfrage nach Apps, nicht auch mit eigenen Apps gut aufgestellt sein will?  
+@%
+Zwar gibt es Ihre App [APPNAME] bereits auf der Windows Plattform, doch ich möchte Ihnen mit diesem Schreiben nahebringen, dass eine Enwicklung Ihrer App für Windows 10 sehr viel profitabler sein wird als für Windows 8. Mit „Universal Windows Apps“ ist es möglich, eine App nicht nur auf dem PC oder Smartphone mit Windows 10 zu installieren, sondern auch auf Tablets, Notebook, der Xbox One sowie auf der Microsoft HoloLens. Das Beste daran für Sie als Entwickler ist, dass der Basis-Code der Apps immer der gleiche ist und somit lediglich kleinere Anpassungen zur besseren Darstellung auf unterschiedlichen Displaygrößen nötig sind. Für die verschiedenen Geräte können jedoch auch verschiedene Versionen veröffentlich werden.
+@%
+Da Sie Ihre App bereits auf anderen Plattformen (Android und iOS) mit modernerem Look und neuen Features anbieten, sollte es nicht schwer sein diese zu Windows zu portieren. Mit dem „Project Islandwood“ ist es möglich, eine iOS App per 'Konverter' zu einer Windows App umzuwandeln. Nach ein paar Eingriffen in den Code, um beispielsweise bestimmte Windows Funktionen (z.B. Cortana-Integration) einzubauen, kann die App für die genannten Geräte veröffentlicht werden. Hier sind weitere Informationen zum Project Islandwood:  https://dev.windows.com/en-us/bridges/ios  und  https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+@%
+Ihre neu entwickelte oder portierte App können Sie anschließend für alle möglichen Geräte veröffentlichen, die Windows 10 als Betriebssystem nutzen. Der Ableger Windows 10 Mobile ist das derzeitige Betriebssystem von Microsoft für Smartphones. Auch hier können die Universal Apps installiert werden. Der Marktanteil von Windows Phones ist zwar nicht groß, doch die Rede von Windows Phones ist hier fehl am Platz, denn es geht um Windows 10, welches den größten Marktanteil weltweit hat und sich zudem im rasanten Wachstum befindet. Die meisten Nutzer Ihrer App sind vermutlich mit Android und iOS unterwegs, doch wenn Ihre Nutzer die App auch auf dem weitest verbreiteten Betriebssystem, Windows, finden könnten, wäre das „Allround-Packet“ gelungen. Ebenso können Sie somit Ihre App neben den mobilen Versionen auf dem Desktop anbieten. Wenn Sie eine Windows 10 Universal App entwickeln, ist die neue Smartphone App (auf Windows 10 Mobile) sozusagen nur ein schöner Nebeneffekt.
+@%
+Ich hoffe, ich konnte Sie nun davon überzeugen, dass in einer neuen Windows 10 App sehr großes Potential steckt. Mich würde es freuen, wenn Sie die Entwicklung einer solchen Universal App in Ihrem Unternehmen nochmals überdenken und sich einen Ruck geben und endlich den Schritt wagen eine zeitgemäßere App für Windows Nutzer zu entwickeln. Vielleicht können Sie bereits ein paar Worte zur Entwicklung der neuen App verlieren und mir scheiben, ob eine Universal App in Arbeit ist, der Markt vorerst noch überwacht bzw. die Entwicklung der alten App und einer neuen App noch beratschlagt werden muss, oder ob Sie partout keine neue Windows App entwickeln möchten. Vielleicht gibt es bei letzterem einen bestimmten Grund, den sie mir nennen möchten. Als Grund den Marktanteil von Windows 10 zu nennen erachte ich jedoch als nicht angebracht.
+@%
+Auch hoffe ich, dass Sie nun einsehen, dass in einer Windows 10 App sehr großes Potential steckt, welches Sie mit der aktuellen "alten" Windows App nicht ausschöpfen können.
+@%
+Vielen Dank für Ihre Antwort bereits im Voraus.
+@%
+Mit freundlichen Grüßen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senhoras e senhores,
+@%
+10 Windows existe há mais de um ano e foi instalado em mais de 400 milhões de vezes. A loja do Windows foi visitada mais de 5 bilhões de vezes e baixei apps. Então me surge a pergunta, quem quer ser bem posicionado sobre esta plataforma, com grande demanda para apps, nem mesmo com apps próprios?  
+@%
+Ainda há seu app [APPNAME] já na plataforma Windows, mas gostaria com esta carta traz você perto que um desenvolvimento de seu app para Windows 10 será muito mais rentável do que para o Windows 8. Com o "universal Windows apps" é possível instalar um app, mas também no comprimidos, caderno, o Xbox, assim como sobre o Microsoft HoloLens não só no PC ou Smartphone com Windows 10. O melhor é para você como um desenvolvedor, que o código-base dos apps é sempre o mesmo e são necessários apenas pequenos ajustes para melhor representação na exibição de diferentes tamanhos. Para os diferentes dispositivos, mas também versões diferentes podem publicar são. 
+@%
+Ter seu app já em outras plataformas (Android e iOS), com um olhar mais moderno e novas funcionalidades, não deve ser difícil para portá-lo para Windows. Com o "projeto Islandwood", é possível converter um app iOS através de 'Converter' para um aplicativo do Windows. Depois de alguns procedimentos no código para incorporar, por exemplo, certos Windows funções (tais como Cortana integração), o aplicativo para os dispositivos mencionados pode ser publicado. Aqui estão mais informações sobre o projeto Islandwood: https://dev.windows.com/en-us/bridges/ios e https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+desenvolveram recentemente o seu @%
+ou você pode publicar, em seguida, portado app para todos os possíveis dispositivos que usam o sistema operacional do Windows 10. O Windows é o sistema operacional atual para Smartphones Microsoft 10 móveis. Também é aqui que você pode instalar apps Universal. A quota de mercado dos telefones de Windows não é grande, mas a conversa de telefones Windows aqui é fora do lugar, porque vai para Windows 10, que tem o maior mercado compartilhar no mundo e também está em rápido crescimento. A maioria dos usuários do seu aplicativo são, provavelmente, com Android e iOS, mas se seus usuários na medida em que o app no localizar amplamente utilizado sistema operacional, Windows, se pudesse, teria o "pacote all-round" conseguido. Também você pode oferecer seu app além as versões móveis do ambiente de trabalho. Se você desenvolver um aplicativo Windows 10 universal, é o novo smartphone app (em 10 de Windows mobile) por assim dizer apenas um efeito colateral agradável. 
+@%
+espero que agora posso convencê-la que o app é muito grande potencial em um novo Windows 10. Seria bom se você app universal em sua empresa mais uma vez reconsiderar o desenvolvimento de tais e para dar um empurrão e finalmente dar o passo para desenvolver um aplicativo mais contemporâneo para usuários do Windows. Talvez você já pode dizer algumas palavras sobre o desenvolvimento dos meus discos e a nova app, se é um aplicativo universal no trabalho, deve ser o mercado para o tempo ser ainda monitorado ou mesmo aconselhou o desenvolvimento do velho app e um app novo, ou se você quer não desenvolver partout nenhum novo aplicativo do Windows. Talvez haja uma razão que quiserem chamar-me neste último. Para chamar a quota de mercado de 10 Windows como uma razão, considero tão inapropriado. @%
+Mesmo 
+eu espero que você verá que no enorme potencial de um aplicativo Windows 10, que você não explorar a atual "velha" Windows app can.
+ @%
+Obrigado pela sua resposta antecipadamente. 
+@%
+Tipo Atenciosamente</target>
+        </trans-unit>
+        <trans-unit id="appveraltet_vorlage_2" translate="yes" xml:space="preserve">
+          <source>Sehr geehrte Damen und Herren,
+@%
+Eigentlich nutze ich Ihre App [APPNAME] sehr gerne. Doch Ihre App für die Windows 10 Plattform trübt meine Begeisterung beträchtlich. Die von Ihnen im Windows 10 Store angebotene App ist leider ziemlich veraltet, wartet mit einer hinterherhinkenden Performance auf und lässt auch essentielle neue Funktionen der iOS- und Android-Apps vermissen.
+@%
+Deshalb möchte ich Sie fragen, ob sie an einer Aktualisierung der App für Windows 10 arbeiten beziehungsweise eine solche überhaupt in Erwägung ziehen. Windows 10 hat aktuell über 400 Millionen Installationen, die potentielle Kunden für Ihre App sind. Es wäre fatal, diesen schnell wachsenden Markt zu ignorieren. Mit Windows 10 bietet Microsoft eine universelle App Plattform an, die es ermöglicht, einen Basis-App-Code auf allen Endgeräten vom Smartphone bis zum PC auszuführen. Sie müssen Ihre moderne Windows 10 App also nur einmal schreiben.
+@%
+Da Ihre iOS App von hervorragender Qualität ist, kann ich Ihnen zum Ersparen von Aufwand beim Entwickeln einer Windows 10 App noch das "Project Islandwood" von Microsoft ans Herz legen. Dieses erlaubt es, Ihre iOS App auf die Windows 10 Plattform zu portieren. Mehr Informationen hierzu finden Sie hier: https://dev.windows.com/en-us/bridges/ios und https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+@%
+Ich würde mich freuen, wenn Sie meine Aspekte überdenken und ich Sie vielleicht sogar vom Potential einer Windows 10 App überzeugen konnte.
+@%
+Mit freundlichen Grüßen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senhoras e senhores,
+@%
+na verdade eu uso o app [APPNAME] muito. Mas seu app para Windows para meu entusiasmo considerável nuvem plataforma 10. loja 10 é na app você Windows infelizmente muito obsoletos, esperando com um desempenho laggard e pode também ser essenciais novos recursos do IOS e Android apps a falta. 
+@%
+é por isso que eu gostaria de perguntar, se eles trabalham em uma atualização do app para Windows 10 ou em todos, a consideração de tal movimento. 10 Windows atualmente tem mais de 400 milhões instalações que são potenciais clientes para seu aplicativo. Seria fatal para ignorar este mercado de rápido crescimento. Com 10 janelas, Microsoft oferece uma plataforma de aplicativo universal que permite executar um código app básica em todos os dispositivos de seu Smartphone para o PC. Você deve escrever suas janelas modernas 10 tão somente uma vez app. 
+@%
+Porque seu app iOS de excelente qualidade, posso colocá-lo para a economia de despesa ao desenvolver um aplicativo Windows 10 ainda o "projeto Islandwood" da Microsoft para o coração. Isso permite que seu iOS app na plataforma portando 10 de Windows. Para obter mais informações, aqui: https://dev.windows.com/en-us/bridges/ios e https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+@%
+eu ficaria encantado se repensar meus problemas e eu claro, talvez até o potencial para um aplicativo do Windows 10 podia.
+ @%
+Atenciosamente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App Veraltet Vorlage 2</note>
+        </trans-unit>
+        <trans-unit id="appveraltet_vorlage_3" translate="yes" xml:space="preserve">
+          <source>Sehr geehrte Damen und Herren, 
+@%
+Ich finde Ihre App [APPNAME] hervorragend und würde sie am liebsten selbst viel öfter benutzen. Leider ist die App noch im alten Design von Windows 8 gehalten. Deshalb nutze ich die App auch nur, wenn es wirklich sein muss. Gibt es denn schon Aussichten auf eine kommende Windows 10 Version der App? 
+@%
+Vielen Dank bereits im Voraus.
+@%
+Mit freundlichen Grüßen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senhoras e senhores, 
+@%
+acho que o seu app [APPNAME] excelente e prefere mesmo mais frequentemente para usá-los. Infelizmente, o app é ainda que o antigo projeto do Windows 8 é mantido. Portanto, eu só uso o app que realmente deve ser. Já existem pontos de vista sobre uma próxima versão do Windows 10 do app? 
+@%
+Agradeço já antecipadamente
+ @%
+Atenciosamente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App Veraltet Vorlage 3</note>
+        </trans-unit>
+        <trans-unit id="appveraltet_vorlage_en1" translate="yes" xml:space="preserve">
+          <source>Dear Sir or Madame,
+@%
+Windows 10 is there now since the end of July 2015 and achieved more than 400 million installations and also 5 billion visits in the Windows store. Who doesn't want to be well prepared with own apps on this platform, with great demand for apps?
+@%
+[APP NAME] is available for Windows indeed, but unfortunately the app is outdated. So with this letter I would like to convince you, that a development of a new app for Windows 10 devices can be much more  profitable than it was for Windows 8. With the option of universal apps, it is possible to install an app not only on a PC, a laptop, a tablet or a smartphone, it is even possible to install it on the Xbox One, the Surface Hub and on the HoloLens, a virtual reality headset. And the great thing is: Only one app-code and only small code-interventions are needed in order to lay out the app's design properly to all screen sizes. Of course, different versions for diffeent devices are also supported.
+@%
+More modern and fully-featured versions of your apps are already on other platforms (Android and iOS), so it should not be difficult to port these over to Windows. Microsoft offers tools like 'Project Islandwood', which make it possible to „convert“ an iOS app to a Windows app. After a few further interventions in the code in order to incorporate, for example, certain Windows features (such as Cortana integration), the app can be published for the mentioned devices. Here are more information about project Islandwood: https://dev.windows.com/en-us/bridges/ios and https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+@%
+You can then publish the newly developed or ported app for all possible devices that use Windows 10 as an operating system. Windows 10 Mobile is the current operating system from Microsoft for Smartphones, which also support universal apps. The market share of Windows phones is not the greatest, but I'm talking about Windows 10, which has the largest market share in the world. Most users of your app use Android and iOS, but if your users could find your app on the Windows platform as well, you would offer an "all-round package". If you are developing a Windows 10 app, then the new smartphone app (on Windows 10 mobile) is just a nice side-effect.
+@%
+I hope I could convince you that there ist very big potential in a new Windows 10 app. I would be glad, if you would reconsider the development of a Windows 10 universal app in your company and finally take the step to develop a more modern app for Windows users. Maybe you can already say a few words about the development of the app and with that, whether there is a new app in progress, whether the market and the usage of the old app is still watched, whether a universal app is considered, or whether you definitely don't want to develop a modern Universal Windows App.
+@%
+I would like to hear back from you soon.
+
+Yours sincerely</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Caro senhor ou senhora,
+@%
+10 Windows está lá agora, desde o final de julho de 2015 e alcançado mais de 400 milhões de instalações e então 5 bilhões visitas na loja de Windows. Quem não quer estar bem preparado com apps próprios nesta plataforma, com grande demanda para apps? 
+@%
+[NOME do APP] está realmente disponível para Windows, mas infelizmente o app está desatualizado. Com esta carta, que eu gostaria de te convencer que um desenvolvimento de um novo aplicativo para dispositivos Windows 10 pode ser muito mais rentável do que o que para o Windows 8 com a opção de universais apps, é possível instalar a app não só em um PC, um laptop, um tablet ou um smartphone, é possível instalá-lo no Xbox um , o hub de superfície e sobre o HoloLens, um fone de ouvido da realidade virtual. E o melhor é: código único app e apenas código pequenas intervenções são necessárias para esquematizar o projeto do aplicativo corretamente para todos os tamanhos de tela. Claro, versões diferentes para diffeent dispositivos são suportadas. 
+@%
+Versões mais modernas e completa de suas aplicações já estão em outras plataformas (Android e iOS), então não deve ser difícil portar estas sobre para o Windows. Microsoft oferece ferramentas como 'Islandwood ' do projeto, que tornam possível a "converter" um app iOS para um aplicativo do Windows. Após alguns mais intervenção no código para incorporar, por exemplo, certos Windows funções (tais como Cortana integração), o app pode ser publicado para os dispositivos mencionados. Aqui estão mais informações sobre o projeto de Islandwood: https://dev.windows.com/en-us/bridges/ios e https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+@%
+você pode, em seguida, publicar o app recentemente desenvolvido ou portado para todos os possíveis dispositivos que usam o Windows como sistema operacional 10. Windows Mobile 10 é o atual sistema operacional da Microsoft para smartphones, que, portanto, suporte universais apps. A quota de mercado dos telefones de Windows não é das melhores, mas estou a falar de Windows 10, que tem o maior mercado de partilhar o mundo. A maioria dos usuários do seu aplicativo usar Android e iOS, mas se seus usuários poderiam encontrar seu app na plataforma Windows também, oferecerem ao "pacote all-round". Se você estiver desenvolvendo um aplicativo do Windows 10, em seguida, o novo smartphone app (no Windows mobile 10) é apenas um efeito colateral agradável. 
+@%
+espero que eu poderia convencê-lo que lá é muito grande potencial em um novo aplicativo Windows 10. Eu ficaria feliz, se você poderia reconsiderar o desenvolvimento de um aplicativo universal 10 Windows em sua empresa e finalmente dar o passo para desenvolver um aplicativo mais moderno para usuários do Windows. Talvez você já pode dizer algumas palavras sobre o desenvolvimento do app e com isso, se há um app novo em andamento, se o mercado e o uso do app velho ainda é observado, se um aplicativo universal é considerado, ou se você definitivamente não quer desenvolver um app universal moderno do Windows. 
+@%
+eu gostaria de ouvir de você logo.
+ 
+Seu sinceramente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App Veraltet Vorlage 1 EN</note>
+        </trans-unit>
+        <trans-unit id="spielfehlt_vorlage_1" translate="yes" xml:space="preserve">
+          <source>Sehr geehrte Damen und Herren,
+@%
+Windows 10 gibt es nun seit Ende Juli 2015 und wurde bereits mehr als 400 Millionen mal installiert. Laut den aktuellsten Steam-Statistiken zeigt sich, dass der Großteil der Steam-Spieler bereits Windows 10 nutzen. Neben Steam bietet sich aber vor allem der Windows Store hervorragend dazu an seine Spiele zu vermarkten. Deshalb stellt sich für mich die Frage, wer auf dieser Plattform, mit großer Nachfrage nach Apps und vor allem nach Spielen, nicht auch mit eigenen Spielen gut aufgestellt sein will?  
+@%
+Leider gibt es Ihr Spiel [SPIELNAME] noch nicht auf der Windows Plattform. Deshalb möchte ich Ihnen mit diesem Schreiben nahebringen, dass eine Entwicklung Ihres Spieles für Windows Geräte sehr profitabel sein wird. Mit „Universal Windows Apps“ ist es möglich, ein Spiel nicht nur auf dem PC oder Smartphone mit Windows 10 zu installieren, sondern auch auf Tablets, Notebook, der Xbox One sowie auf der Microsoft HoloLens. Das Beste daran für Sie als Entwickler ist, dass der Basis-Code der Spiele immer gleich ist und somit lediglich kleinere Anpassungen zur besseren Darstellung auf unterschiedlichen Displaygrößen nötig sind. Für die verschiedenen Geräte können ebenfalls verschiedene Versionen veröffentlich werden.
+@%
+Da Sie Ihr Spiel bereits auf der iOS-Plattform mit modernerem Look und neuen Features anbieten, sollte es nicht schwer sein diese zu Windows zu portieren. Mit dem „Project Islandwood“ ist es möglich, ein iOS Spiel in ein Windows 10 Spiel umzuwandeln. Nach ein paar weiteren Eingriffen in den Code, um gegebenenfalls bestehende Darstellungsprobleme zu beheben, kann die App für die genannten Geräte veröffentlicht werden. Hier finden Sie noch weitere Infos zu Project Islandwood:  https://dev.windows.com/en-us/bridges/ios  sowie https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+@%
+Ihr neu entwickeltes oder portiertes Spiel können Sie anschließend für alle möglichen Geräte veröffentlichen, die Windows 10 als Betriebssystem nutzen. Der Ableger Windows 10 Mobile ist das derzeitige Betriebssystem von Microsoft für Smartphones. Auch hier können die Universal Apps installiert werden. Der Marktanteil von Windows Phones ist zwar nicht groß, doch die Rede von Windows Phones ist hier fehl am Platz, denn es geht um Windows 10, welches den größten Marktanteil weltweit hat und sich zudem im rasanten Wachstum befindet. Die meisten Nutzer Ihrer Spieles sind vermutlich mit Android und iOS unterwegs, doch wenn Ihre Nutzer die App auch auf dem weitest verbreiteten Betriebssystem, Windows, finden könnten, wäre das „Allround-Packet“ gelungen. Ebenso können Sie somit Ihr Spiel neben den mobilen Versionen auf dem Desktop anbieten. Wenn Sie ein Windows 10 Spiel entwickeln, ist das Smartphone Spiel (auf Windows 10 Mobile) sozusagen nur ein schöner Nebeneffekt.
+@%
+Ich hoffe, ich konnte Sie nun davon überzeugen, dass in einem Windows 10 Spiel sehr großes Potential steckt. Mich würde es freuen, wenn Sie die Entwicklung eines solchen Universal Windows Platform Game in Ihrem Unternehmen nochmals überdenken und sich einen Ruck geben und endlich den Schritt wagen ein Spiel für Windows Nutzer zu entwickeln. Vielleicht können Sie bereits ein paar Worte zur Entwicklung des Spieles verlieren und mir scheiben, ob ein Spiel in Arbeit ist, der Markt vorerst noch überwacht bzw. die Entwicklung des Spieles noch überlegt werden muss, oder ob Sie partout kein Windows Spiel entwickeln möchten. Vielleicht gibt es bei letzterem einen bestimmten Grund, den sie mir nennen möchten. Als Grund den Marktanteil von Windows 10 zu nennen erachte ich jedoch als nicht angebracht.
+@%
+Vielen Dank für Ihre Antwort bereits im Voraus.
+@%
+Mit freundlichen Grüßen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senhoras e senhores,
+@%
+10 Windows lá agora desde o final de julho de 2015 e foi instalado em mais de 400 milhões de vezes. Segundo as últimas estatísticas, vapor mostra que a maioria dos jogadores de vapor já utiliza Windows 10. Além do vapor, mas especialmente o Windows store oferece excelente para o mercado para seus jogos. Então me surge a pergunta, quem quer ser bem posicionado sobre esta plataforma, com grande demanda para apps e especialmente após os jogos, não com jogos próprios?  
+@%
+Infelizmente lá seu jogo [NOME do JOGO] ainda não disponível na plataforma Windows. Portanto, eu gostaria de trazer-lhe de perto esta carta, um desenvolvimento do seu jogo para dispositivos do Windows será muito rentável. Com o "universal Windows apps" é possível instalar um jogo, mas também no comprimidos, caderno, o Xbox, assim como sobre o Microsoft HoloLens não só no PC ou Smartphone com Windows 10. O melhor é para você como um desenvolvedor, que o código-base dos jogos é sempre o mesmo e são necessários apenas pequenos ajustes para melhor representação na exibição de diferentes tamanhos. Para os diferentes dispositivos podem também são diferentes versões publicadas. 
+@%
+Porque eles já oferecem seu jogo na plataforma iOS com um olhar mais moderno e novas funcionalidades, não deveria ser difícil para portá-lo para Windows. Com o "projeto Islandwood", é possível converter um jogo de jogo 10 iOS em um Windows. Após alguns mais intervenção no código para corrigir, se for caso disso, os problemas existentes de representação, o aplicativo para os dispositivos mencionados podem ser publicados. Aqui você vai encontrar mais informações sobre o projeto Islandwood: https://dev.windows.com/en-us/bridges/ios e https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+podem @%
+seu jogo recentemente desenvolvido ou portado, então para todos os dispositivos possíveis publicar que usam o sistema operacional do Windows 10. O Windows é o sistema operacional atual para Smartphones Microsoft 10 móveis. Também é aqui que você pode instalar apps Universal. A quota de mercado dos telefones de Windows não é grande, mas a conversa de telefones Windows aqui é fora do lugar, porque vai para Windows 10, que tem o maior mercado compartilhar no mundo e também está em rápido crescimento. A maioria dos usuários são seu jogo provavelmente com Android e iOS na estrada, mas se seus usuários na medida em que o app no localizar amplamente utilizado sistema operacional, Windows, se pudesse, teria o "pacote all-round" conseguido. Também você pode oferecer seu jogo além do versões móvel do ambiente de trabalho. Se você estiver desenvolvendo um jogo de 10 janelas, o Smartphone é então o jogo (10 de Windows mobile) falar só um efeito colateral agradável. 
+@%
+espero que agora posso convencê-la que o jogo é muito grande potencial em um Windows 10. Seria feliz se você universal em suas empresas reconsiderar o desenvolvimento de tal jogo de plataforma do Windows e para dar uma sacudida e finalmente dar o passo para desenvolver um jogo para usuários do Windows. Talvez você já pode dizer algumas palavras sobre o desenvolvimento do jogo e meus discos, não se é um jogo para o trabalho, deve ser o mercado para o tempo ainda a ser monitorado ou, ainda, pensar sobre o desenvolvimento do jogo, ou se você quiser desenvolver partout nenhum jogo de Windows. Talvez haja uma razão que quiserem chamar-me neste último. Para chamar a quota de mercado de 10 Windows como uma razão, considero tão inapropriado. 
+@%
+Obrigado pela sua resposta já antecipadamente
+ @%
+Atenciosamente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">spielfehlt_vorlage_1</note>
+        </trans-unit>
+        <trans-unit id="spielveraltet_vorlage_1" translate="yes" xml:space="preserve">
+          <source>Sehr geehrte Damen und Herren,
+@%
+Windows 10 gibt es nun seit mehr als ein Jahr und wurde bereits mehr als 450 Millionen mal installiert. Der Windows Store wurde bereits mehr als 5 Milliarden mal besucht und Spiele heruntergeladen worden. Deshalb stellt sich für mich die Frage, wer auf dieser Plattform, mit großer Nachfrage nach Spielen, nicht auch mit eigenen Spielen gut aufgestellt sein will?  
+@%
+Leider gibt es Ihr Spiel [SPIELNAME] noch nicht auf der Windows Plattform. Deshalb möchte ich Ihnen mit diesem Schreiben nahebringen, dass eine Entwicklung Ihres Spiels für Windows Geräte sehr profitabel sein kann. Mit „Universal Windows Apps“ ist es möglich, ein Spiel gleichzeitig für den PC und das Smartphone mit Windows 10 zu entwickeln. Diese Apps lassen sich dadurch auch auf Tablets, Notebook, der Xbox One sowie auf der Microsoft HoloLens installieren. Das Beste daran für Sie als Entwickler ist, dass der Basis-Code des Spiels immer gleich ist und somit lediglich kleinere Anpassungen, wie zum Beispiel zur besseren Darstellung auf unterschiedlichen Displaygrößen, nötig sind. 
+@%
+Da Sie Ihr Spiel bereits auf der iOS-Plattformen anbieten, sollte es nicht schwer sein dieses zu Windows zu portieren. Mit dem „Project Islandwood“ ist es möglich, ein iOS Spiel in ein Windows 10 Spiel umzuwandeln. Nach ein paar weiteren Eingriffen in den Code, um die Stabilität das Spieles gegebenenfalls zu verbessern, kann das Spiel für die genannten Geräte veröffentlicht werden. Hier finden Sie noch weitere Infos zu Project Islandwood:  https://dev.windows.com/en-us/bridges/ios  sowie https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+@%
+Ihre neu entwickeltes oder portiertes Spiel können Sie anschließend für alle möglichen Geräte veröffentlichen, die Windows 10 als Betriebssystem nutzen. Der Ableger Windows 10 Mobile ist das derzeitige Betriebssystem für Smartphones von Microsoft. Auch hier kann Ihr Spiel installiert werden. Der Marktanteil von Windows 10 Mobile mag zwar nicht groß sein, doch die Rede von Spielen für Windows Smartphones ist hier fehl am Platz, denn es geht um Windows 10, welches den größten Marktanteil weltweit hat und sich zudem im rasanten Wachstum befindet. Die meisten Nutzer Ihres Spieles sind vermutlich mit Android und iOS unterwegs, doch wenn die Nutzer Ihr Spiel auch auf dem weitest verbreiteten Betriebssystem, Windows, finden könnten, wäre das „Allround-Packet“ gelungen. Wenn Sie ein Windows 10 Spiel entwickeln, ist das Smartphone Spiel (auf Windows 10 Mobile) sozusagen nur ein schöner Nebeneffekt.
+@%
+Ich hoffe, ich konnte Sie nun davon überzeugen, dass in einem Windows 10 Spiel sehr großes Potential steckt. Mich würde es freuen, wenn Sie die Entwicklung Ihrer App in Ihrem Unternehmen nochmals überdenken und sich einen Ruck geben, endlich den Schritt zu wagen, eine App für Windows Nutzer zu entwickeln. Vielleicht können Sie bereits ein paar Worte zur Entwicklung des Spieles verlieren und mir scheiben, ob ein Spiel in Arbeit ist, der Markt vorerst noch überwacht bzw. die Entwicklung des Spieles noch überlegt werden muss, oder ob Sie partout keine Windows Spiele entwickeln möchten. Vielleicht gibt es bei letzterem einen bestimmten Grund, den sie mir nennen möchten. Als Grund den Marktanteil von Windows 10 zu nennen erachte ich jedoch als nicht angebracht.
+@%
+Vielen Dank für Ihre Antwort bereits im Voraus.
+@%
+Mit freundlichen Grüßen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senhoras e senhores,
+@%
+10 Windows existe há mais de um ano e foi instalado mais de 450 milhões de vezes. A loja do Windows foi visitada mais de 5 bilhões de vezes e sido jogos baixados. Então me surge a pergunta, quem quer ser bem posicionado sobre esta plataforma, com grande demanda de jogos, nem mesmo com jogos próprios?  
+@%
+Infelizmente lá seu jogo [NOME do JOGO] ainda não disponível na plataforma Windows. Portanto, eu gostaria de trazer-lhe de perto esta carta, um desenvolvimento do seu jogo para dispositivos do Windows pode ser muito rentável. Com "universal Windows apps" é possível desenvolver um jogo para o PC e o Smartphone com o Windows 10. Esses aplicativos também são comprimidos, caderno, um Xbox, bem como a instalação do Microsoft HoloLens. A melhor coisa para você como um desenvolvedor é que o código-base do jogo é sempre o mesmo e, portanto, apenas pequenos ajustes como são necessárias por exemplo para melhor representação em vários tamanhos de exibição. 
+@%
+Porque eles já oferecem seu jogo nas plataformas iOS, não deveria ser difícil para esta porta para Windows. Com o "projeto Islandwood", é possível converter um jogo de jogo 10 iOS em um Windows. Após alguns mais intervenção no código, se necessário, para melhorar a estabilidade do jogo, o jogo para os dispositivos mencionados pode ser publicado. Aqui você vai encontrar mais informações sobre o projeto Islandwood: https://dev.windows.com/en-us/bridges/ios e https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+podem @%
+seu jogo recentemente desenvolvido ou portado, então para todos os dispositivos possíveis publicar que usam o sistema operacional do Windows 10. O Windows é o sistema operacional atual para Smartphones Microsoft 10 móveis. Aqui, também, seu jogo pode ser instalado. A quota de mercado do Windows pode não ser grande 10 móvel, mas falar de jogos para smartphones Windows aqui está fora de lugar, porque vai para Windows 10, que tem o maior mercado compartilhar no mundo e também está em rápido crescimento. Seu jogo e a maioria dos usuários provavelmente está usando Android e iOS, mas os usuários mais seu jogo em localizar amplamente utilizado sistema operacional, Windows, pudesse, teria o "pacote all-round" conseguido. Se você estiver desenvolvendo um jogo de 10 janelas, o Smartphone é então o jogo (10 de Windows mobile) falar só um efeito colateral agradável. 
+@%
+espero que agora posso convencê-la que o jogo é muito grande potencial em um Windows 10. Seria bom se você reconsiderar o desenvolvimento de seu aplicativo em sua empresa e dar uma sacudida, finalmente o passo a tomar para desenvolver um aplicativo para usuários do Windows. Talvez você já pode dizer algumas palavras sobre o desenvolvimento do jogo e meus discos, se é um jogo para o trabalho, deve ser o mercado para o tempo ainda a ser monitorado ou, ainda, pensar sobre o desenvolvimento do jogo, ou se você quiser desenvolver partout sem jogos de Windows. Talvez haja uma razão que quiserem chamar-me neste último. Para chamar a quota de mercado de 10 Windows como uma razão, considero tão inapropriado. 
+@%
+Obrigado pela sua resposta já antecipadamente
+ @%
+Atenciosamente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">spielveraltet_vorlage_1</note>
+        </trans-unit>
+        <trans-unit id="v1" translate="yes" xml:space="preserve">
+          <source>Vorlage 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo 1</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vorlage 1</note>
+        </trans-unit>
+        <trans-unit id="v2" translate="yes" xml:space="preserve">
+          <source>Vorlage 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo 2</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vorlage 2</note>
+        </trans-unit>
+        <trans-unit id="v3" translate="yes" xml:space="preserve">
+          <source>Vorlage 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo 3</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vorlage 3</note>
+        </trans-unit>
+        <trans-unit id="v4" translate="yes" xml:space="preserve">
+          <source>Vorlage 4</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo 4</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vorlage 4</note>
+        </trans-unit>
+        <trans-unit id="v5" translate="yes" xml:space="preserve">
+          <source>Vorlage 5</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo 5</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vorlage 5</note>
+        </trans-unit>
+        <trans-unit id="v6" translate="yes" xml:space="preserve">
+          <source>Vorlage 6</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo 6</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vorlage 6</note>
+        </trans-unit>
+        <trans-unit id="v7" translate="yes" xml:space="preserve">
+          <source>Vorlage 7</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo 7</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vorlage 7</note>
+        </trans-unit>
+        <trans-unit id="v8" translate="yes" xml:space="preserve">
+          <source>Vorlage 8</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo 8</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vorlage 8</note>
+        </trans-unit>
+        <trans-unit id="beachten_faq" translate="yes" xml:space="preserve">
+          <source>Was muss ich beachten, wenn ich eine eurer Textvorlagen an ein Unternehmen verschicken will?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">O que eu preciso se eu quero enviar um dos seus modelos de texto para uma empresa?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FAQ Beachten</note>
+        </trans-unit>
+        <trans-unit id="weiter_btn" translate="yes" xml:space="preserve">
+          <source>Los geht's</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Vamos começar!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Los geht's Firststart Screen Button</note>
+        </trans-unit>
+        <trans-unit id="copy_btn" translate="yes" xml:space="preserve">
+          <source>Kopieren</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cópia</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Kopieren</note>
+        </trans-unit>
+        <trans-unit id="send_btn" translate="yes" xml:space="preserve">
+          <source>Versenden</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">navio</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Senden Button</note>
+        </trans-unit>
+        <trans-unit id="vibration_header" translate="yes" xml:space="preserve">
+          <source>Vibrationen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vibração</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Vibrationen</note>
+        </trans-unit>
+        <trans-unit id="nutzungsbedingungen_erfahren" translate="yes" xml:space="preserve">
+          <source>Ansehen</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Inspecionar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">First Run Nutzungsbedingungen Ansehen</note>
+        </trans-unit>
+        <trans-unit id="nutzungsbedingungen_head" translate="yes" xml:space="preserve">
+          <source>Nutzungsbedingungen</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Termos de uso</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">nutzungsbedingungen Head</note>
+        </trans-unit>
+        <trans-unit id="nutzungsbedingungen_txt" translate="yes" xml:space="preserve">
+          <source>Wir aktualisieren unsere Nutzungsbestimmungen und unsere Datenschutzerklärung.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nós atualizamos nossos termos de uso e nossa política de privacidade.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">nutzungsbedingungen  Text</note>
+        </trans-unit>
+        <trans-unit id="nutzungsbedingungen_verabschieden" translate="yes" xml:space="preserve">
+          <source>Verstanden</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Entendi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">First Run Nutzungsbedingungen Verstanden</note>
+        </trans-unit>
+        <trans-unit id="random_switch_description" translate="yes" xml:space="preserve">
+          <source>Zufällige Textvorlage beim Öffnen Anzeigen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelo de texto aleatório quando você abrir o anúncios</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Zufällige Textvorlage beim Öffnen Anzeigen</note>
+        </trans-unit>
+        <trans-unit id="random_switch_header" translate="yes" xml:space="preserve">
+          <source>Zufällige Textvorlagen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modelos de texto aleatório</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Zufällige Textvorlagen</note>
+        </trans-unit>
+        <trans-unit id="spenden_txt" translate="yes" xml:space="preserve">
+          <source>Über eine Spende in die Kaffeekasse wären wir sehr dankbar. Die Spenden fließen in die Weiterentwicklung der App und Website sowie dem Erhalt der Datenbank.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uma doação para o fundo de café, ficaríamos muito gratos. Doações de fluxo no desenvolvimento do Web site e o app, bem como o recibo do banco de dados.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Spenden Text</note>
+        </trans-unit>
+        <trans-unit id="spenden_fail" translate="yes" xml:space="preserve">
+          <source>Das Spenden hat leider nicht geklappt. Überprüfe bitte deine Internetverbindung und versuche es erneut.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">As doações não funcionam infelizmente. Por favor, verifique sua conexão de Internet e tente novamente.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Spenden Fehler</note>
+        </trans-unit>
+        <trans-unit id="spenden_sucsess" translate="yes" xml:space="preserve">
+          <source>Vielen Dank für deine Spende! Jeder Groschen hilft uns weiter!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obrigado por sua doação! Cada centavo ajuda!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Spenden Erfolgreich</note>
+        </trans-unit>
+        <trans-unit id="spenden_head" translate="yes" xml:space="preserve">
+          <source>Spenden</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Doações</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Spenden Header</note>
+        </trans-unit>
+        <trans-unit id="system_design_dunkel" translate="yes" xml:space="preserve">
+          <source>Dark-Theme</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tema escuro</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Design Dunkel</note>
+        </trans-unit>
+        <trans-unit id="ruckmeldung_einsenden" translate="yes" xml:space="preserve">
+          <source>Rückmeldung einsenden</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enviar comentários</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Rückmeldungeinsenden FAQ Head</note>
+        </trans-unit>
+        <trans-unit id="betreff_error" translate="yes" xml:space="preserve">
+          <source>Ihr Betreff muss mindestens 3 Zeichen lang sein</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">O assunto deve ser pelo menos 3 caracteres</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">kontakt Fehler</note>
+        </trans-unit>
+        <trans-unit id="email_error_lengt" translate="yes" xml:space="preserve">
+          <source>Ihre E-Mail muss mindestens 6 Zeichen lang sein</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seu e-mail deve ter pelo menos 6 caracteres</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">kontakt Fehler</note>
+        </trans-unit>
+        <trans-unit id="email_error_validation" translate="yes" xml:space="preserve">
+          <source>Diese E-Mail ist nicht gültig</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Este e-mail não é válido</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">kontakt Fehler</note>
+        </trans-unit>
+        <trans-unit id="nachname_error" translate="yes" xml:space="preserve">
+          <source>Ihr Nachname muss mindestens 3 Zeichen lang sein</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seu sobrenome deve ser pelo menos 3 caracteres</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">kontakt Fehler</note>
+        </trans-unit>
+        <trans-unit id="nachrich_error" translate="yes" xml:space="preserve">
+          <source>Ihre Nachricht muss mindestens 6 Zeichen lang sein</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sua mensagem deve ter pelo menos 6 caracteres</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">kontakt Fehler</note>
+        </trans-unit>
+        <trans-unit id="vorname_error" translate="yes" xml:space="preserve">
+          <source>Ihr Vorname muss mindestens 3 Zeichen lang sein</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seu nome deve ser pelo menos 3 caracteres</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">kontakt Fehler</note>
+        </trans-unit>
+        <trans-unit id="kontakt_versendet" translate="yes" xml:space="preserve">
+          <source>Deine Kontaktanfrage ist erfolgreich bei uns angekommen!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sua solicitação de contato com sucesso chegou para nós!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Kontakt Formular Erfolgreich Text</note>
+        </trans-unit>
+        <trans-unit id="kontakt_versendet_error" translate="yes" xml:space="preserve">
+          <source>Deine Kontaktanfrage konnte leider nicht übermittelt werden. Bitte prüfe deine Internetverbindung.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seu pedido não pôde ser entregue. Por favor, verifique sua conexão de Internet.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Kontakt Formular Error Text</note>
+        </trans-unit>
+        <trans-unit id="kontakt_versendet_head" translate="yes" xml:space="preserve">
+          <source>Hinweis</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">comentário</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Kontakt Formular Erfolgreich Header</note>
+        </trans-unit>
+        <trans-unit id="kontakt_versendet_head_error" translate="yes" xml:space="preserve">
+          <source>Fehler</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">erro</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Kontakt Formular Error Header</note>
+        </trans-unit>
+        <trans-unit id="setting_option" translate="yes" xml:space="preserve">
+          <source>Optionen</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Opções</target>
+        </trans-unit>
+        <trans-unit id="kontakt_nicht_alle_felder" translate="yes" xml:space="preserve">
+          <source>Überprüfe bitte, ob alle Textfelder ausgefüllt sind.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Por favor, verifique se todos os campos de texto são preenchidos.</target>
+        </trans-unit>
+        <trans-unit id="kontakt_formular_betreff" translate="yes" xml:space="preserve">
+          <source>Betreff</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">assunto</target>
+        </trans-unit>
+        <trans-unit id="kontakt_formular_email" translate="yes" xml:space="preserve">
+          <source>E-Mail-Adresse</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">endereço de email</target>
+        </trans-unit>
+        <trans-unit id="kontakt_formular_kategorie" translate="yes" xml:space="preserve">
+          <source>Kategorie wählen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Escolha a categoria</target>
+        </trans-unit>
+        <trans-unit id="kontakt_formular_nachname" translate="yes" xml:space="preserve">
+          <source>Nachname</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Sobrenome</target>
+        </trans-unit>
+        <trans-unit id="kontakt_formular_nachricht" translate="yes" xml:space="preserve">
+          <source>Nachricht</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">mensagem</target>
+        </trans-unit>
+        <trans-unit id="kontakt_formular_vorname" translate="yes" xml:space="preserve">
+          <source>Vorname</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">nome</target>
+        </trans-unit>
+        <trans-unit id="translate_back_btn" translate="yes" xml:space="preserve">
+          <source>Zurückübersetzen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Definição da palavra volta</target>
+        </trans-unit>
+        <trans-unit id="translate_btn" translate="yes" xml:space="preserve">
+          <source>Übersetzen</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Traduzir</target>
+        </trans-unit>
+        <trans-unit id="kategorie_wählen" translate="yes" xml:space="preserve">
+          <source>Kategorie wählen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Escolha a categoria</target>
+        </trans-unit>
+        <trans-unit id="app_name" translate="yes" xml:space="preserve">
+          <source>App-Name</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">nome do aplicativo</target>
+        </trans-unit>
+        <trans-unit id="email_unternehmen" translate="yes" xml:space="preserve">
+          <source>E-Mail-Adresse des Unternehmens</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Endereço de e-Mail da empresa (opcional)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="unternehmen" translate="yes" xml:space="preserve">
+          <source>Unternehmen</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">empresa</target>
+        </trans-unit>
+        <trans-unit id="kontakt_app_name" translate="yes" xml:space="preserve">
+          <source>App Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nome de App</target>
+        </trans-unit>
+        <trans-unit id="kontakt_firma" translate="yes" xml:space="preserve">
+          <source>Firma (Entwickler)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Companhia (desenvolvedor)</target>
+        </trans-unit>
+        <trans-unit id="wunsch_app_btn" translate="yes" xml:space="preserve">
+          <source>Wunsch-App einreichen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enviar pedido app</target>
+        </trans-unit>
+        <trans-unit id="app_showbox" translate="yes" xml:space="preserve">
+          <source>App Showbox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Caixa de seleção Mostrar app</target>
+        </trans-unit>
+        <trans-unit id="app_showbox_content" translate="yes" xml:space="preserve">
+          <source>Diese Funktion ist noch nicht fertig versuche es nach dem nächsten Update wieder ;)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Esta função não está terminada ainda novo ;) tentativa após a próxima atualização</target>
+        </trans-unit>
+        <trans-unit id="app_showbox_title" translate="yes" xml:space="preserve">
+          <source>App Showbox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Caixa de seleção Mostrar app</target>
+        </trans-unit>
+        <trans-unit id="amazon_spende" translate="yes" xml:space="preserve">
+          <source>Kostenlos beim nächstem Amazon Einkauf Spenden</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gratuitamente para a Amazônia próxima compras doações</target>
+        </trans-unit>
+        <trans-unit id="amazon_spende_btn" translate="yes" xml:space="preserve">
+          <source>Jetzt bei Amazon Einkaufen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Agora no Amazon compras</target>
+        </trans-unit>
+        <trans-unit id="paypal_spende" translate="yes" xml:space="preserve">
+          <source>Spende mit PayPal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Doação via PayPal</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="paypal_spende_btn" translate="yes" xml:space="preserve">
+          <source>Jetzt mit PayPal Spenden</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Agora com doações PayPal</target>
+        </trans-unit>
+        <trans-unit id="strore_spende" translate="yes" xml:space="preserve">
+          <source>Spende mit In App Kauf</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Doação através da loja</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="unterstutze_projekt" translate="yes" xml:space="preserve">
+          <source>Unterstütze unser Projekt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apoiar o nosso projeto</target>
+        </trans-unit>
+        <trans-unit id="kontakt_daten_checkbox" translate="yes" xml:space="preserve">
+          <source>Kontakt Daten sichern?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Salvar dados de contato?</target>
+        </trans-unit>
+        <trans-unit id="VoteBox_titel" translate="yes" xml:space="preserve">
+          <source>VoteBox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">VoteBox</target>
+        </trans-unit>
+        <trans-unit id="showbox_disclamer" translate="yes" xml:space="preserve">
+          <source>App Bilder stammen alle vom Windows Store und gehören den rechtmäßigen Besitzern der App!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Imagens de App são todos do Windows armazenam e são os legítimos proprietários do app!</target>
+        </trans-unit>
+        <trans-unit id="antwort_von" translate="yes" xml:space="preserve">
+          <source>Antwort des Entwicklers bzw. Firma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Resposta do desenvolvedor ou da empresa</target>
+        </trans-unit>
+        <trans-unit id="state" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">status</target>
+        </trans-unit>
+        <trans-unit id="allgemeine_questions" translate="yes" xml:space="preserve">
+          <source>Allgemeine Fragen zum Projekt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Perguntas gerais sobre o projeto</target>
+        </trans-unit>
+        <trans-unit id="send_feedback" translate="yes" xml:space="preserve">
+          <source>Feedback zur App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Feedback sobre o app</target>
+        </trans-unit>
+        <trans-unit id="your_feedback" translate="yes" xml:space="preserve">
+          <source>Dein Feedback zur App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sua opinião sobre o app</target>
+        </trans-unit>
+        <trans-unit id="your_mail" translate="yes" xml:space="preserve">
+          <source>Deine E-Mail Adresse</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seu endereço de E-Mail</target>
+        </trans-unit>
+        <trans-unit id="your_questions" translate="yes" xml:space="preserve">
+          <source>Deine frage zu Project AppGap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sua pergunta sobre o projeto AppGap</target>
+        </trans-unit>
+        <trans-unit id="Spenden_erhalten" translate="yes" xml:space="preserve">
+          <source>Bisher erhaltene Spenden belaufen sich auf</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Até agora doações recebidas elevou-se a</target>
+        </trans-unit>
+        <trans-unit id="spenden_error" translate="yes" xml:space="preserve">
+          <source>Du brauchst eine aktive Internetverbindung um erhaltene Spenden zu sehen!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Você precisa de uma conexão de Internet ativa para ver as doações recebidas!</target>
+        </trans-unit>
+        <trans-unit id="keineDaten_header" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <target state="new">Information</target>
+        </trans-unit>
+        <trans-unit id="keineDaten_txt" translate="yes" xml:space="preserve">
+          <source>Derzeit gibt es in dieser Rubrik keine Daten</source>
+          <target state="new">Derzeit gibt es in dieser Rubrik keine Daten</target>
+        </trans-unit>
+        <trans-unit id="emailsend_fail" translate="yes" xml:space="preserve">
+          <source>Das senden der E-Mail ist wegen dem folgenden Fehler fehlgeschlagen:</source>
+          <target state="new">Das senden der E-Mail ist wegen dem folgenden Fehler fehlgeschlagen:</target>
+        </trans-unit>
+        <trans-unit id="emailsend_suggses" translate="yes" xml:space="preserve">
+          <source>Email wurde erfolgreich verschickt!</source>
+          <target state="new">Email wurde erfolgreich verschickt!</target>
+        </trans-unit>
+        <trans-unit id="adduplex_header" translate="yes" xml:space="preserve">
+          <source>Datenschutzerklärung für die Nutzung von AdDuplex</source>
+          <target state="new">Datenschutzerklärung für die Nutzung von AdDuplex</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdDuplex Header</note>
+        </trans-unit>
+        <trans-unit id="adduplex_txt" translate="yes" xml:space="preserve">
+          <source>Die Datenschutzerklärung für die Nutzung von AdDuplex finden Sie auf http://adduplex.com/privacy-policy</source>
+          <target state="new">Die Datenschutzerklärung für die Nutzung von AdDuplex finden Sie auf http://adduplex.com/privacy-policy</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdDuplex Text</note>
+        </trans-unit>
+        <trans-unit id="patreon_btn" translate="yes" xml:space="preserve">
+          <source>Mit Patreon unterstützen</source>
+          <target state="new">Mit Patreon unterstützen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

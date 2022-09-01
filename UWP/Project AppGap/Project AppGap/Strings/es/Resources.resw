@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="keineInternetVerbindung" xml:space="preserve">
+    <value>Por lo tanto, no se puede cargar ninguna valoración. Por favor, conectarse a Internet, para poder utilizar todas las funciones de la aplicación.</value>
+    <comment>Keine Internet Verbindung Text</comment>
+  </data>
+  <data name="keinInternetHeader" xml:space="preserve">
+    <value>Nota: Usted está fuera de línea</value>
+    <comment>Keine Internet Verbindung Header</comment>
+  </data>
+  <data name="aktualisiere" xml:space="preserve">
+    <value>Actualización</value>
+  </data>
+  <data name="aktualisieren" xml:space="preserve">
+    <value>Actualizando</value>
+  </data>
+  <data name="alteste" xml:space="preserve">
+    <value>Más antiguo</value>
+    <comment>Alt-Neu Sortierung</comment>
+  </data>
+  <data name="app_fehlt" xml:space="preserve">
+    <value>Falta de aplicación</value>
+    <comment>App Fehlt Button</comment>
+  </data>
+  <data name="app_veraltet" xml:space="preserve">
+    <value>Aplicación obsoleta</value>
+    <comment>App Veraltet Button</comment>
+  </data>
+  <data name="a_to_z" xml:space="preserve">
+    <value>A-Z</value>
+    <comment>A-Z Sortierung</comment>
+  </data>
+  <data name="Designswitch_off" xml:space="preserve">
+    <value>De</value>
+    <comment>Switch Button Aus</comment>
+  </data>
+  <data name="Designswitch_on" xml:space="preserve">
+    <value>Para</value>
+    <comment>Switch Button An</comment>
+  </data>
+  <data name="GreetingTextBlock" xml:space="preserve">
+    <value>¿Qué haría usted?</value>
+    <comment>Startseite Empfangs Text</comment>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Proyecto AppGap</value>
+    <comment>App Name</comment>
+  </data>
+  <data name="header_allgemein" xml:space="preserve">
+    <value>General</value>
+    <comment>Allgemein Header</comment>
+  </data>
+  <data name="Header_einstellungen" xml:space="preserve">
+    <value>Configuración</value>
+    <comment>Einstellung Header</comment>
+  </data>
+  <data name="header_info" xml:space="preserve">
+    <value>Acerca de</value>
+    <comment>Info Header</comment>
+  </data>
+  <data name="Header_kontakt" xml:space="preserve">
+    <value>contacto</value>
+    <comment>Kontakt Header</comment>
+  </data>
+  <data name="Header_Rückmeldung" xml:space="preserve">
+    <value>comentarios</value>
+    <comment>Rückmeldung Header</comment>
+  </data>
+  <data name="Header_textvorlagen" xml:space="preserve">
+    <value>Plantillas de texto</value>
+    <comment>Textvorlage Header</comment>
+  </data>
+  <data name="Header_uberuns" xml:space="preserve">
+    <value>Sobre nosotros</value>
+    <comment>Über uns Header</comment>
+  </data>
+  <data name="MainPage_button" xml:space="preserve">
+    <value>Enviar plantillas de texto</value>
+    <comment>Startseite Button Textvorlage Versenden</comment>
+  </data>
+  <data name="neueste_update_in_version" xml:space="preserve">
+    <value>-Me no siento solo estrés Manuel</value>
+    <comment>-</comment>
+  </data>
+  <data name="neues_in_version" xml:space="preserve">
+    <value>Qué es nuevo en esta versión:</value>
+    <comment>-</comment>
+  </data>
+  <data name="neuste" xml:space="preserve">
+    <value>Más reciente</value>
+    <comment>Neu-Alt Sortierung</comment>
+  </data>
+  <data name="news_header" xml:space="preserve">
+    <value>Noticias</value>
+    <comment>News Header</comment>
+  </data>
+  <data name="spiel_fehlt" xml:space="preserve">
+    <value>Juego de falta</value>
+    <comment>Spiel fehlt</comment>
+  </data>
+  <data name="spiel_veraltet" xml:space="preserve">
+    <value>Juego de obsoleto</value>
+    <comment>Spiel Veraltet</comment>
+  </data>
+  <data name="Startseite_txt" xml:space="preserve">
+    <value>Inicio</value>
+    <comment>Startseite Header</comment>
+  </data>
+  <data name="team_header" xml:space="preserve">
+    <value>Equipo y colaboradores</value>
+    <comment>team_header</comment>
+  </data>
+  <data name="z_to_a" xml:space="preserve">
+    <value>Z-A</value>
+    <comment>Z-A Sortierung</comment>
+  </data>
+  <data name="überuns_allgemein_text" xml:space="preserve">
+    <value>Cada leales usuarios de Windows saben que todavía hay una brecha de aplicación en la Windows store. Esto debe cerrar con 10 ventanas en el transcurso de tiempo. Aplicaciones universales, proyecto Islandwood, y proyecto Westminster debe reclutar como muchos desarrolladores para una aplicación de Windows. Para promover el desarrollo de la tienda Windows, tratamos de convencer a varias empresas y desarrolladores para desarrollar una aplicación de Windows. 
+ 
+Para que el equipo de plantillas de texto proyecto AppGap ha compilado, que contiene la información más importante sobre el desarrollo de aplicaciones, las cifras actuales de Windows 10 y varias comparaciones y visiones. De esta manera se puede escribir fácilmente y convenientemente un correo electrónico con uno de nuestros textos para el deseado empresas y desarrolladores, para convencerles de una aplicación de Windows y ya tenga unas palabras sobre el desarrollo de una aplicación para generar. Usted recibirá un mensaje, puedes agregarlo en nuestra base de datos integrada en la aplicación y en el sitio Web.</value>
+    <comment>überuns_allgemein_text</comment>
+  </data>
+  <data name="startseite_rückmeldung_btn" xml:space="preserve">
+    <value>Ver comentarios</value>
+    <comment>Rückmeldungen ansehen</comment>
+  </data>
+  <data name="Allgemeiner_Datenschutz" xml:space="preserve">
+    <value>Protección de datos general</value>
+    <comment>Allgemeiner Datenschutz </comment>
+  </data>
+  <data name="Allgemeiner_Datenschutz_txt" xml:space="preserve">
+    <value>Los operadores de sitio y la aplicación de AppGap proyecto toman muy en serio la protección de sus datos personales. Tratamos sus datos confidencialmente y según la legislación de protección de datos y esta política de privacidad. 
+El uso de nuestro sitio web y app es posible sin la indicación de los datos personales. Que personalmente se recopilan información de identificación personal (como nombre o direcciones de correo electrónico) en nuestras páginas, esto es sobre una base voluntaria. Esta información no será revelada a terceros. 
+Señalar que la transmisión de datos en Internet (E.g. cuando se comunica por correo electrónico) pueden exhibir brechas de seguridad. Una protección completa de datos contra el acceso por parte de terceros no es posible. 
+Del uso del marco de la impronta obligación publicado los datos de contacto por parte de terceros para el envío de materiales de publicidad e información no expresamente solicitados quedan expresamente excluido. Los operadores reservan acciones legales expresamente que en caso de información promocional solicitada, tales como e-mails de spam.</value>
+    <comment>Allgemeiner Datenschutz Text</comment>
+  </data>
+  <data name="Auskunft" xml:space="preserve">
+    <value>Información, cancelación, revocación</value>
+    <comment>Datenschutz Auskunft</comment>
+  </data>
+  <data name="Auskunft_txt" xml:space="preserve">
+    <value>En cualquier momento, usted tiene el derecho a la libre información sobre sus datos personales almacenados, cuyo origen y destinatario y el propósito de la informática y el derecho a la rectificación, bloqueo o cancelación de dichos datos. Usted puede contactar, así como a más preguntas sobre el tema de datos personales a nosotros vía formulario de contacto o en kontakt@project-appgap.tk.</value>
+    <comment>Datenschutz Text Auskunft</comment>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>P+F</value>
+    <comment>FAQ</comment>
+  </data>
+  <data name="beachten_txt" xml:space="preserve">
+    <value>Debe a la plantilla de texto, al menos en los lugares donde [enter empresa] es como sino, 
+ajustar en consecuencia. Pon tu nombre abajo. Asegúrese de que usted envíe no siempre tienen las mismas empresas de plantilla.</value>
+    <comment>FAQ Beachten Text</comment>
+  </data>
+  <data name="Haftungsausschluss" xml:space="preserve">
+    <value>aviso de declinación de responsabilidades</value>
+    <comment>Haftungsausschluss Header</comment>
+  </data>
+  <data name="Haftungsausschluss_txt" xml:space="preserve">
+    <value>Nuestra oferta contiene enlaces a sitios web externos de terceros, en cuyo contenido no tenemos influencia. Por lo tanto, podemos asumir ninguna responsabilidad por este contenido extranjero. Por el contenido de la vinculados lados siempre el contratista respectivo u operador de esos sitios es responsable. Los sitios enlazados se verificaron en el momento de la vinculación de posibles violaciones de la ley. Contenidos ilegales no eran reconocibles en el momento de vinculación. Sin embargo, un control permanente de los sitios enlazados no es razonable sin pruebas concretas de violación de la ley. Al darse cuenta de las violaciones, inmediatamente eliminaremos dichos enlaces.</value>
+    <comment>Haftungsausschluss Text</comment>
+  </data>
+  <data name="Kontaktformular" xml:space="preserve">
+    <value>formulario de contacto</value>
+    <comment>Kontaktformular Header FAQ</comment>
+  </data>
+  <data name="Kontaktformular_txt" xml:space="preserve">
+    <value>Si vienes a nosotros vía formulario de contacto peticiones información desde el formulario de solicitud, incluyendo los datos de contacto especificados por usted con el fin de procesar la petición y para el caso de preguntas de seguimiento para nosotros se almacenan. Esta información no será revelada a terceros.</value>
+    <comment>Kontaktformular Text FAQ</comment>
+  </data>
+  <data name="Mail_Unternehmen" xml:space="preserve">
+    <value>¿Donde puedo encontrar las direcciones de correo electrónico de las empresas?</value>
+    <comment>Mail Unternemen  FAQ Header</comment>
+  </data>
+  <data name="Mail_Unternehmen_txt" xml:space="preserve">
+    <value>Normalmente, usted puede encontrarlos en el sitio Web de la empresa "Contacto" o "Imprimir". Ofrecemos una colección de empresas objetivo en el futuro en la web y en nuestra aplicación.</value>
+    <comment>Mail Unternemen  FAQ Text</comment>
+  </data>
+  <data name="Nutzung_von_Twitter" xml:space="preserve">
+    <value>Política de privacidad para el uso de Twitter</value>
+    <comment>Datenschutz Twitter Header</comment>
+  </data>
+  <data name="Nutzung_von_Twitter_txt" xml:space="preserve">
+    <value>En nuestra aplicación, así como en nuestra página web son características del servicio de Twitter. Estas características son ofrecidas por Twitter Inc., mercado de Twitter, Inc. 1355 St, Suite 900, San Francisco, CA 94103, Estados Unidos. Mediante el uso de Twitter y la función de "Re-Tweet", las páginas Web que visitas están relacionadas con su cuenta de Twitter y notificó a otros usuarios. Transmite datos a Twitter. 
+Nos indica que hemos no recibido conocimiento como proveedor de la aplicación del contenido de los datos transmitidos y su uso a través de Twitter. Ver esto en la declaración de protección de datos de Twitter https://twitter.com/privacy. 
+, Puede cambiar la configuración de privacidad en Twitter en la configuración de la cuenta en https://twitter.com/account/settings.</value>
+    <comment>Datenschutz Twitter Text</comment>
+  </data>
+  <data name="Ruckmeldung" xml:space="preserve">
+    <value>He recibido una confirmación. ¿Cómo debo dejarlos a venir a usted?</value>
+    <comment>Rückmeldung FAQ header</comment>
+  </data>
+  <data name="Ruckmeldung_txt" xml:space="preserve">
+    <value>Sobre el sitio web y la aplicación envíe implementó la función "feedback", puede reducir - pasan encendido sus comentarios - por favor la tecla directamente a la base de datos. Si no como a amigos, como alternativa puede remitir los comentarios por correo electrónico a project-appgap@outlook.com.</value>
+    <comment>Rückmeldungeinsenden FAQ Text</comment>
+  </data>
+  <data name="textvorlagen_einsenden" xml:space="preserve">
+    <value>Presentar la plantilla de texto</value>
+    <comment>textvorlagen_einsenden</comment>
+  </data>
+  <data name="Urheberrecht_app" xml:space="preserve">
+    <value>Derechos de autor (app)</value>
+    <comment>Urheberrecht_app Header</comment>
+  </data>
+  <data name="Urheberrecht_app_txt" xml:space="preserve">
+    <value>El contenido creado expresamente por los operadores y trabaja en la aplicación de AppGap de proyecto sirve específicamente para la duplicación, procesamiento y difusión.</value>
+    <comment>Urheberrecht_app Text</comment>
+  </data>
+  <data name="Urheberrecht_web" xml:space="preserve">
+    <value>Derechos de autor (sitio web)</value>
+    <comment>Urheberrecht_web Header</comment>
+  </data>
+  <data name="Urheberrecht_web_txt" xml:space="preserve">
+    <value>El contenido creado expresamente por el sitio y obras en estas páginas están sujetas a ley de propiedad intelectual alemana. La reproducción, edición, distribución y cualquier forma de explotación fuera de los límites del derecho de autor requieren el consentimiento por escrito del operador. Descargas y copias de este sitio se permiten solamente para uso privado, no comercial. Medida en que se han creado el contenido de este sitio no por el operador, los derechos de autor son respetado tercero. En particular, el contenido identifica terceros como tal. Si usted se da cuenta de una violación de los derechos de autor, pedimos un toque. Al darse cuenta de las violaciones, inmediatamente vamos a eliminar dicho contenido.</value>
+    <comment>Urheberrecht_web Text</comment>
+  </data>
+  <data name="verantwortlicher_header_f" xml:space="preserve">
+    <value>Operador responsable </value>
+    <comment>﻿Verantwortlicher_Betreiber Datenschutz Header Fett</comment>
+  </data>
+  <data name="verantwortlicher_header_s" xml:space="preserve">
+    <value>(Informaciones según §5 TMG)</value>
+    <comment>﻿Verantwortlicher_Betreiber Datenschutz Header Normal</comment>
+  </data>
+  <data name="﻿Verantwortlicher_Betreiber" xml:space="preserve">
+    <value>CSTRSK
+ en la cervecería 9
+ 89077 Ulm
+ project-appgap@outlook.com</value>
+    <comment>﻿Verantwortlicher_Betreiber Datenschutz</comment>
+  </data>
+  <data name="sende_mail" xml:space="preserve">
+    <value>Enviar</value>
+    <comment>Senden Button</comment>
+  </data>
+  <data name="appfehlt_vorlage_1" xml:space="preserve">
+    <value>Señoras y señores,
+@%
+Windows 10 hay más de un año y se ha instalado más de 450 millones de veces. La tienda de Windows fue visitada más de 5 mil millones de veces y descarga apps. ¿Entonces me surge la pregunta, que quiera estar bien posicionada en esta plataforma, con gran demanda de aplicaciones, ni siquiera con aplicaciones propias?  
+@%
+Por desgracia allí su aplicación [APPNAME] todavía no está disponible en la plataforma Windows. Por lo tanto me gustaría traerle cerrar esta carta, un desarrollo de su aplicación para dispositivos de Windows puede ser muy rentable. Con "aplicaciones de Windows universales" es posible desarrollar una aplicación para el PC y el Smartphone con Windows 10. Estas aplicaciones son también tabletas, notebook, Xbox uno así como la instalación de Microsoft HoloLens. Lo mejor para usted como desarrollador es que el código base de aplicaciones es el mismo y por lo tanto son necesarios por ejemplo para mejor representación en diversos tamaños de display, sólo pequeños ajustes como. 
+@%
+Que su aplicación ya en las plataformas de iOS, no debería ser difícil portarlo a Windows. Con el "proyecto de Islandwood", es posible convertir una iOS aplicación 10 app en un Windows. Después de unos pocos más intervención en el código para incorporar, por ejemplo, ciertas características de Windows, tales como la integración de Cortana, la aplicación de los dispositivos mencionados se puede publicar. Aquí encontrará más información sobre proyecto Islandwood: https://dev.windows.com/en-us/bridges/ios y https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+pueden @%
+su aplicación recién desarrollado o portado, entonces para todos los dispositivos posibles publique que utilizan sistema operativo 10. El Windows es el sistema operativo actual para Smartphones Microsoft 10 móvil. También aquí se pueden instalar aplicaciones Universal. La cuota de mercado de Windows puede no ser 10 gran móvil, pero hablar de aplicaciones para teléfonos inteligentes de Windows está aquí fuera de lugar, porque va a Windows 10, que tiene el mayor mercado de compartir en el mundo y es también en el rápido crecimiento. Mayoría de los usuarios de su aplicación es probablemente con Android y iOS, pero si los usuarios podría más su aplicación en el ampliamente usado sistema operativo, Windows, hallazgo, habría conseguido el "paquete completo". Si está desarrollando una aplicación de Windows 10, es la aplicación de Smartphone (en 10 de Windows mobile) por así decirlo a un agradable efecto secundario. 
+@%
+espero que ahora podía convencer a lo la aplicación tiene gran potencial en un Windows 10. Sería feliz si aplicación universal en su organización reconsiderar el desarrollo de los mismos y da una sacudida, finalmente el paso a tomar para desarrollar una aplicación para usuarios de Windows. Tal vez puede ya decir unas palabras sobre el desarrollo de la aplicación y mis discos, si es una aplicación en el trabajo, debe ser el mercado por el momento todavía vigilada o considerando desarrollar la aplicación todavía, o si desea no desarrollar partout ninguna aplicación de Windows. Tal vez hay una razón que desean llamar en el último. Para llamar a la cuota de mercado de Windows 10 como razón, considero como inadecuado. 
+@%
+Gracias por tu respuesta ya de antemano
+ @%
+Saludos cordiales</value>
+    <comment>App Fehlt Vorlage 1</comment>
+  </data>
+  <data name="appfehlt_vorlage_2" xml:space="preserve">
+    <value>Señoras y señores,
+@%
+me pregunto siempre otra vez realmente la aplicación [APPNAME] por Windows 10 dispositivos (PCs, portátiles, tabletas, teléfonos inteligentes, Xbox y Microsoft HoloLens) hay no. Windows 10 es el sistema más común con acceso a todo el mundo a un grande de la app store y tengo la sensación que todavía no es consciente de. 
+@%
+Puede mantener su aplicación para iOS con una especie de "Puente" de Microsoft, llamado "Proyecto Islandwood" (para ello puede aprender aquí httts://dev.windows.com/en-us/bridges/ios y aquí https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/) directamente y en pocos pasos el 10 plataforma de aplicaciones de portar Windows. La aplicación se puede convertir está disponible en todos los demás dispositivos de teléfonos inteligentes en las tabletas hasta el PC, luego al mismo tiempo porque Windows 10 en todos estos dispositivos utilizan el mismo código base. 
+@%
+Toma muy poco tiempo y es muy rentable, utilice esta herramienta para crear una aplicación para plataforma Windows 10. Seguramente miraría hacia delante me y más de 450 millones de otros usuarios de Windows, si conocer y me podeis confirmar para desarrollar una aplicación para Windows 10. 
+@%
+Le agradecería si podría mirar lo mismo y así me dan una lata de retroalimentación
+ @%
+Con saludos amistosos</value>
+  </data>
+  <data name="appfehlt_vorlage_3" xml:space="preserve">
+    <value>Estimados señoras y señores,
+@%
+por desgracia, me di cuenta, que usted su aplicación [APPNAME] no en las ventanas de la tienda 10, sino solamente en el iOS - y la oferta de la tienda de Android. Esto es muy frustrante, porque las ventanas corre sistema operativo 10 en todos mis dispositivos. Es me también un misterio por qué no ofreces tu aplicación en el sistema operativo más utilizado. 
+@%
+Actualmente tiene Windows 10 usuarios mucho más 450 millones, y según las previsiones de Microsoft sí mismo debe ser en el año 2018 sobre 1 billón. Te puedes perder así que uno de la potencialmente más grande fuente de ingresos en el mundo. 
+@%
+me gustaría señalar, que una nueva herramienta de Microsoft llamada 'Proyecto Islandwood' (puede encontrar más información aquí: https://dev.windows.com/en-us/bridges/ios) ofrece gratis. Con esta herramienta, usted puede convertir su aplicación en una aplicación de Windows 10 en corto tiempo o puerto. La buena noticia es que la aplicación de Windows en todos los demás dispositivos Windows el puerto está disponible, ya que todos usan el código base de Windows 10. Así que golpear varios pájaros de un tiro. Aquí sigue siendo un ejemplo de simple desfile: https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios
+@%
+espero que no te pierdas esta oportunidad y considere una programación de la aplicación de Windows o también un puerto libre con la nueva herramienta 'Proyecto Islandwood'. Simplificar 10 vida sólidos dispositivos de nuestro Windows Me y millones de otros usuarios de Windows y podría generar una nueva fuente de ingresos. 
+@%
+Haría una opinión de su parte son feliz.
+ @%
+Saludos cordiales</value>
+  </data>
+  <data name="appfehlt_vorlage_en1" xml:space="preserve">
+    <value>Estimado señor o señora,
+ @%
+10 de Windows es ahora desde finales de julio de 2015 y logra instalaciones más de 400 millones y hasta 5 billones de visitas en la tienda de Windows. ¿Quién no quiere estar bien preparado con aplicaciones propias en esta plataforma, con gran demanda de aplicaciones? 
+@%
+Por desgracia, su aplicación [NOMBRE de aplicación] no está disponible en la plataforma Windows todavía. Así que con esta carta me gustaría convencerte de que un desarrollo para dispositivos Windows 10 puede ser bastante rentable. Con la opción de aplicaciones universales es posible instalar a la aplicación no sólo en un PC, un portátil, una tableta o un smartphone, incluso es posible instalar en la Xbox, el eje de la superficie y en el HoloLens, un casco de realidad virtual. Y es la gran cosa: sólo una aplicación código y sólo código pequeño intervención en orfer colocar el diseño de aplicaciones correctamente en todos los tamaños de pantalla son necesarios. Por supuesto, se admiten diversas versiones para dispositivos favorable. 
+@%
+Sus aplicaciones ya están en otras plataformas (iOS y Android), por lo que no debería ser difícil portarlo sobre Windows. Microsoft ofrece herramientas como el 'project Islandwood', que hacen posible "convertir" una aplicación de iOS a una aplicación de Windows. Después de unos pocos más intervención en el código para incorporar, por ejemplo, cuenta con ciertas ventanas (como integración de Cortana), puede publicar la aplicación para los dispositivos mencionados. Aquí hay más información sobre proyecto de Islandwood: https://dev.windows.com/en-us/bridges/ios y https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+ @%
+entonces puede publicar la aplicación recientemente desarrollada o Portada por todos los posibles dispositivos que utilizan Windows como sistema operativo 10. Windows Mobile 10 es el actual sistema operativo de Microsoft para smartphones, que por lo tanto aplicaciones universales. La cuota de mercado de los teléfonos de Windows no es el más grande, pero estoy hablando de Windows 10, que tiene el mayor mercado de compartir en el mundo. Mayoría de los usuarios de su aplicación usa Android y iOS, pero si los usuarios podrían encontrar su aplicación en la plataforma de Windows, así, ofrecería "paquete integral". Si está desarrollando una aplicación de Windows 10, la aplicación para smartphone (en Windows mobile 10) es sólo un efecto secundario interesante. 
+@%
+espero que pude convencerlo de que la aplicación es muy grande potencial en un 10 de Windows. Yo estaría encantado, si reconsiderar el desarrollo de una aplicación universal 10 de Windows en su empresa y finalmente dar el paso para el desarrollo a la aplicación para usuarios de Windows. Tal vez ya puede decir algunas palabras sobre el desarrollo de la aplicación y con eso, si existe en la aplicación en curso, si el mercado es visto todavía, si la aplicación se considera, o si definitivamente no quiere desarrollar una aplicación de Windows. 
+@%
+Gracias de antemano por su respuesta
+ . @%
+Con cuanto niño</value>
+  </data>
+  <data name="appveraltet_vorlage_1" xml:space="preserve">
+    <value>Señoras y señores,
+@%
+Windows 10 hay más de un año y se ha instalado en más de 400 millones de veces. La tienda de Windows fue visitada más de 5 mil millones de veces y descarga apps. ¿Entonces me surge la pregunta, que quiera estar bien posicionada en esta plataforma, con gran demanda de aplicaciones, ni siquiera con aplicaciones propias?  
+@%
+Aunque existe su aplicación [APPNAME] ya en la plataforma Windows, pero quisiera con esta carta traigo cerca que un desarrollo de tu aplicación para Windows 10 será mucho más rentable que para Windows 8. Con "aplicaciones de Windows universales" es posible instalar una aplicación, sino también encendidas tabletas, notebook, Xbox, así como en el HoloLens Microsoft no sólo en el PC o Smartphone con Windows 10. Lo mejor es para usted como desarrollador, que el código de la base de las aplicaciones es siempre la misma y son necesarios sólo pequeños ajustes para la mejor representación en pantalla de diferentes tamaños. Para publican los diferentes dispositivos, sino también versiones diferentes son. 
+@%
+Que su aplicación ya en otras plataformas (Android y iOS) con un aspecto más moderno y nuevas funciones, no debería ser difícil portarlo a Windows. Con el "proyecto de Islandwood", es posible convertir una aplicación iOS a través de 'Convertidor' a una aplicación de Windows. Después de algunos procedimientos en el código para incorporar, por ejemplo, cuenta con ciertas ventanas (como integración de Cortana), puede publicar la aplicación para los dispositivos mencionados. Aquí hay más información sobre el proyecto Islandwood: https://dev.windows.com/en-us/bridges/ios y https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+desarrollaron recientemente su @%
+o usted puede publicar luego portado app para todos los posibles dispositivos que utilicen sistema operativo 10. El Windows es el sistema operativo actual para Smartphones Microsoft 10 móvil. También aquí se pueden instalar aplicaciones Universal. La cuota de mercado de los teléfonos de Windows no es grande, pero la charla de los teléfonos Windows está aquí fuera de lugar, porque va a Windows 10, que tiene el mayor mercado de compartir en el mundo y es también en el rápido crecimiento. Mayoría de los usuarios de su aplicación es probablemente con Android y iOS, pero si los usuarios en cuanto a la aplicación en el ampliamente usado sistema operativo, Windows, hallazgo podrían, habría conseguido el "paquete completo". También puede ofrecer su aplicación además de las versiones móviles del escritorio. Si desarrollas una aplicación de Windows 10 universal, es la nueva app de smartphone (en 10 de Windows mobile) por así decirlo a un agradable efecto secundario. 
+@%
+espero que ahora podía convencer a lo la aplicación es muy gran potencial en un nuevo 10 de Windows. Sería feliz si aplicación universal en su empresa reconsiderar una vez más el desarrollo de los mismos y para dar un tirón y finalmente dar el paso para desarrollar una aplicación más contemporánea para usuarios de Windows. Tal vez usted ya puede decir algunas palabras sobre el desarrollo de la nueva aplicación y mis discos, si es una aplicación universal en el trabajo, debe ser el mercado el tiempo siendo todavía vigilados o incluso aconsejó el desarrollo de la aplicación antigua y una nueva aplicación, o si desea no desarrollar partout ninguna nueva aplicación de Windows. Tal vez hay una razón que desean llamar en el último. Para llamar a la cuota de mercado de Windows 10 como razón, considero como inadecuado. @%
+Aun 
+espero que ves ahora en el enorme potencial de una aplicación de Windows 10, que no aprovechar la actual "viejo" Windows app Can.
+ @%
+Gracias por su respuesta de antemano. 
+@%
+Tipo mira</value>
+  </data>
+  <data name="appveraltet_vorlage_2" xml:space="preserve">
+    <value>Señoras y señores,
+@%
+realmente usar su aplicación [APPNAME] mucho. Pero su aplicación para Windows a mi entusiasmo considerable nube de plataforma 10. 10 es en la aplicación Windows por desgracia bastante obsoleto, con un rendimiento de rezagados y puede ser también esenciales nuevas características de IOS y Android apps a perder. 
+@%
+Por eso me gustaría preguntar, si trabajan en una actualización de la aplicación para Windows 10 o en absoluto, la consideración de esa medida. Windows 10 tiene actualmente más de 400 millones instalaciones que son clientes potenciales para su aplicación. Sería fatal ignorar este mercado de rápido crecimiento. Con 10 Windows, Microsoft ofrece una plataforma de aplicación universal que permite para realizar un código básico de la aplicación en todos los dispositivos desde tu Smartphone a la PC. Debes escribir tu Windows moderno 10 tan sólo una vez la aplicación. 
+@%
+Porque su aplicación iOS de excelente calidad, puedo poner le para el ahorro de gastos en el desarrollo de una aplicación de Windows 10 todavía el "proyecto Islandwood" de Microsoft al corazón. Esto permite su aplicación en la plataforma de portar Windows 10. Para obtener más información, aquí: https://dev.windows.com/en-us/bridges/ios y https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+@%
+estaría encantado de if repensar mis problemas y yo seguro que quizá incluso el potencial para una aplicación de Windows 10 podría.
+ @%
+Saludos cordiales</value>
+    <comment>App Veraltet Vorlage 2</comment>
+  </data>
+  <data name="appveraltet_vorlage_3" xml:space="preserve">
+    <value>Señoras y señores, 
+@%
+creo su aplicación [APPNAME] excelente y prefiere más a menudo a usarlos. Desafortunadamente, la aplicación está todavía en que el viejo diseño de Windows 8 se mantiene. Por lo tanto, sólo utilice la aplicación si realmente debe ser. ¿Ya son vistas en una próxima versión 10 de Windows de la aplicación? 
+@%
+Gracias ya de antemano
+ @%
+Saludos cordiales</value>
+    <comment>App Veraltet Vorlage 3</comment>
+  </data>
+  <data name="appveraltet_vorlage_en1" xml:space="preserve">
+    <value>Estimado señor o señora,
+@%
+10 de Windows es ahora desde finales de julio de 2015 y logra instalaciones más de 400 millones y hasta 5 billones de visitas en la tienda de Windows. ¿Quién no quiere estar bien preparado con aplicaciones propias en esta plataforma, con gran demanda de aplicaciones? 
+@%
+[NOMBRE de aplicación] está de hecho disponible para Windows, pero lamentablemente la aplicación es anticuada. Así que con esta carta que me gustaría convencerte de que un desarrollo de una nueva aplicación para dispositivos de Windows 10 puede ser mucho más rentable que lo que para Windows 8 con la opción de aplicaciones universales, es posible instalar a la aplicación no sólo en un PC, un portátil, una tableta o un smartphone, incluso es posible instalar en la Xbox uno , el eje de la superficie y en el HoloLens, un casco de realidad virtual. Y es la gran cosa: sólo una aplicación código y sólo las intervenciones de código pequeño se necesitan para pone hacia fuera el diseño de la aplicación correctamente todas los tamaños de pantalla. Por supuesto, se admiten diversas versiones para dispositivos favorable. 
+@%
+Versiones más moderno y completo de sus aplicaciones ya están en otras plataformas (iOS y Android), por lo que no debería ser difícil para estos puertos por Windows. Microsoft ofrece herramientas como el 'project Islandwood', que hacen posible "convertir" una aplicación de iOS a una aplicación de Windows. Después de unos pocos más intervención en el código para incorporar, por ejemplo, cuenta con ciertas ventanas (como integración de Cortana), puede publicar la aplicación para los dispositivos mencionados. Aquí hay más información sobre proyecto de Islandwood: https://dev.windows.com/en-us/bridges/ios y https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/
+@%
+entonces puede publicar la aplicación recientemente desarrollada o Portada por todos los posibles dispositivos que utilizan Windows como sistema operativo 10. Windows Mobile 10 es el actual sistema operativo de Microsoft para smartphones, que por lo tanto aplicaciones universales. La cuota de mercado de los teléfonos de Windows no es el más grande, pero estoy hablando de Windows 10, que tiene el mayor mercado de compartir en el mundo. Mayoría de los usuarios de su aplicación usa Android y iOS, pero si los usuarios podrían encontrar su aplicación en la plataforma de Windows, así, ofrecería "paquete integral". Si está desarrollando una aplicación de Windows 10, la nueva app de smartphone (en Windows mobile 10) es sólo un efecto secundario interesante. 
+@%
+espero que logré convencerte que hay es muy grande potencial en una nueva aplicación de Windows 10. Yo estaría encantado, si reconsiderar el desarrollo de una aplicación universal 10 de Windows en su empresa y finalmente dar el paso para desarrollar una aplicación más moderna para los usuarios de Windows. Tal vez ya puede decir algunas palabras sobre el desarrollo de la aplicación y con eso, si hay una nueva aplicación en progreso, si el mercado y el uso de la aplicación antigua todavía es visto, si se considera una aplicación universal, o si definitivamente no quiere desarrollar una aplicación de Windows universal moderno. 
+@%
+me gustaría oír de usted pronto.
+ 
+Tuyo sinceramente</value>
+    <comment>App Veraltet Vorlage 1 EN</comment>
+  </data>
+  <data name="spielfehlt_vorlage_1" xml:space="preserve">
+    <value>Señoras y señores,
+@%
+10 de Windows ahora desde finales de julio de 2015 y se ha instalado en más de 400 millones de veces. Según las últimas estadísticas, vapor muestra que la mayoría de los jugadores de vapor ya use Windows 10. Además de vapor, pero especialmente el Windows store ofrece excelente al mercado para sus juegos. ¿Entonces me surge la pregunta, que quiera estar bien posicionada en esta plataforma, con gran demanda de aplicaciones y especialmente después de juegos, no con juegos propios?  
+@%
+Lamentablemente hay tu juego [NOMBRE de JUEGO] todavía no está disponible en la plataforma Windows. Por lo tanto me gustaría traerle cerrar esta carta, un desarrollo de su juego para dispositivos Windows será muy rentable. Con "aplicaciones de Windows universales" es posible instalar un juego, sino también encendidas tabletas, notebook, Xbox, así como en el HoloLens Microsoft no sólo en el PC o Smartphone con Windows 10. Lo mejor es para usted como desarrollador, que el código de la base de los juegos es siempre la misma y son necesarios sólo pequeños ajustes para la mejor representación en pantalla de diferentes tamaños. Para los distintos dispositivos pueden también son diferentes versiones publicadas. 
+@%
+Porque ya ofrecen su juego en la plataforma de iOS con un aspecto más moderno y nuevas funciones, no debería ser difícil portarlo a Windows. Con el "proyecto de Islandwood", es posible convertir un juego de juego 10 de iOS en un Windows. Después de unos pocos más intervención en el código para fijar, en su caso, los problemas existentes de representación, la aplicación de los dispositivos mencionados pueden ser publicados. Aquí encontrará más información sobre proyecto Islandwood: https://dev.windows.com/en-us/bridges/ios y https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+pueden @%
+tu juego recién desarrollado o portado publique entonces para todos los dispositivos posibles que utilizan sistema operativo 10. El Windows es el sistema operativo actual para Smartphones Microsoft 10 móvil. También aquí se pueden instalar aplicaciones Universal. La cuota de mercado de los teléfonos de Windows no es grande, pero la charla de los teléfonos Windows está aquí fuera de lugar, porque va a Windows 10, que tiene el mayor mercado de compartir en el mundo y es también en el rápido crecimiento. Mayoría de los usuarios es su juego probablemente con Android y iOS en el camino, pero si los usuarios en cuanto a la aplicación en el ampliamente usado sistema operativo, Windows, hallazgo podrían, habría conseguido el "paquete completo". También puede ofrecer su juego además de las versiones móviles del escritorio. Si está desarrollando un juego de Windows 10, el Smartphone es juego (en el móvil de Windows 10) hablar a solo un agradable efecto secundario. 
+@%
+espero que ahora podía convencer a te ese juego es muy gran potencial en un 10 de Windows. Sería feliz si usted universal en sus empresas reconsiderar el desarrollo de tal juego de plataforma de Windows y para dar una sacudida y finalmente dar el paso para desarrollar un juego para los usuarios de Windows. Tal vez ya puede decir algunas palabras sobre el desarrollo del juego y mis discos, si no es un juego en el trabajo, debe ser el mercado el tiempo ser todavía monitoreados o aún el pensamiento sobre el desarrollo del juego, o si desea desarrollar partout ningún juego de Windows. Tal vez hay una razón que desean llamar en el último. Para llamar a la cuota de mercado de Windows 10 como razón, considero como inadecuado. 
+@%
+Gracias por tu respuesta ya de antemano
+ @%
+Saludos cordiales</value>
+    <comment>spielfehlt_vorlage_1</comment>
+  </data>
+  <data name="spielveraltet_vorlage_1" xml:space="preserve">
+    <value>Señoras y señores,
+@%
+Windows 10 hay más de un año y se ha instalado más de 450 millones de veces. La tienda de Windows fue visitada más de 5 mil millones de veces y sido juegos descargados. ¿Entonces me surge la pregunta, que quiera estar bien posicionada en esta plataforma, con gran demanda de juegos, ni siquiera con juegos propios?  
+@%
+Lamentablemente hay tu juego [NOMBRE de JUEGO] todavía no está disponible en la plataforma Windows. Por lo tanto me gustaría traerle cerrar esta carta, un desarrollo de su juego para dispositivos de Windows puede ser muy rentable. Con "aplicaciones de Windows universales" es posible desarrollar un juego para la PC y el Smartphone con Windows 10. Estas aplicaciones son también tabletas, notebook, Xbox uno así como la instalación de Microsoft HoloLens. Lo mejor para usted como desarrollador es que el código base del juego es siempre la misma y por lo tanto son necesarios por ejemplo para mejor representación en varios tamaños de pantalla, sólo pequeños ajustes como. 
+@%
+Porque ya ofrecen su juego en las plataformas de iOS, no debería ser difícil llevar esto a Windows. Con el "proyecto de Islandwood", es posible convertir un juego de juego 10 de iOS en un Windows. Después de unos pocos más intervención en el código, si es necesario, para mejorar la estabilidad del juego, el juego para los dispositivos mencionados se puede publicar. Aquí encontrará más información sobre proyecto Islandwood: https://dev.windows.com/en-us/bridges/ios y https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/ 
+pueden @%
+tu juego recién desarrollado o portado publique entonces para todos los dispositivos posibles que utilizan sistema operativo 10. El Windows es el sistema operativo actual para Smartphones Microsoft 10 móvil. Aquí, también, el juego se puede instalar. La cuota de mercado de Windows puede no ser 10 gran móvil, pero hablar de juegos para Windows smartphones está aquí fuera de lugar, porque va a Windows 10, que tiene el mayor mercado de compartir en el mundo y es también en el rápido crecimiento. Sus juego más usuarios probablemente están usando Android y iOS, pero si los usuarios podría más su juego en el ampliamente usado sistema operativo, Windows, hallazgo, habría conseguido el "paquete completo". Si está desarrollando un juego de Windows 10, el Smartphone es juego (en el móvil de Windows 10) hablar a solo un agradable efecto secundario. 
+@%
+espero que ahora podía convencer a te ese juego es muy gran potencial en un 10 de Windows. Sería feliz si reconsiderar el desarrollo de su aplicación en su empresa y dar una sacudida, finalmente el paso a tomar para desarrollar una aplicación para usuarios de Windows. Tal vez ya puede decir algunas palabras sobre el desarrollo del juego y mis discos, si no es un juego en el trabajo, debe ser el mercado el tiempo ser todavía monitoreados o aún el pensamiento sobre el desarrollo del juego, o si desea desarrollar partout juegos de Windows. Tal vez hay una razón que desean llamar en el último. Para llamar a la cuota de mercado de Windows 10 como razón, considero como inadecuado. 
+@%
+Gracias por tu respuesta ya de antemano
+ @%
+Saludos cordiales</value>
+    <comment>spielveraltet_vorlage_1</comment>
+  </data>
+  <data name="v1" xml:space="preserve">
+    <value>Plantilla 1</value>
+    <comment>Vorlage 1</comment>
+  </data>
+  <data name="v2" xml:space="preserve">
+    <value>Plantilla 2</value>
+    <comment>Vorlage 2</comment>
+  </data>
+  <data name="v3" xml:space="preserve">
+    <value>Plantilla 3</value>
+    <comment>Vorlage 3</comment>
+  </data>
+  <data name="v4" xml:space="preserve">
+    <value>Plantilla 4</value>
+    <comment>Vorlage 4</comment>
+  </data>
+  <data name="v5" xml:space="preserve">
+    <value>Plantilla 5</value>
+    <comment>Vorlage 5</comment>
+  </data>
+  <data name="v6" xml:space="preserve">
+    <value>Plantilla 6</value>
+    <comment>Vorlage 6</comment>
+  </data>
+  <data name="v7" xml:space="preserve">
+    <value>Plantilla 7</value>
+    <comment>Vorlage 7</comment>
+  </data>
+  <data name="v8" xml:space="preserve">
+    <value>Plantilla 8</value>
+    <comment>Vorlage 8</comment>
+  </data>
+  <data name="beachten_faq" xml:space="preserve">
+    <value>¿Qué necesito si quiero enviar a uno de las plantillas de texto para una empresa?</value>
+    <comment>FAQ Beachten</comment>
+  </data>
+  <data name="weiter_btn" xml:space="preserve">
+    <value>¡Empecemos!</value>
+    <comment>Los geht's Firststart Screen Button</comment>
+  </data>
+  <data name="copy_btn" xml:space="preserve">
+    <value>Copia</value>
+    <comment>Kopieren</comment>
+  </data>
+  <data name="send_btn" xml:space="preserve">
+    <value>Enviar</value>
+    <comment>Senden Button</comment>
+  </data>
+  <data name="vibration_header" xml:space="preserve">
+    <value>Vibración</value>
+    <comment>Vibrationen</comment>
+  </data>
+  <data name="nutzungsbedingungen_erfahren" xml:space="preserve">
+    <value>Inspección</value>
+    <comment>First Run Nutzungsbedingungen Ansehen</comment>
+  </data>
+  <data name="nutzungsbedingungen_head" xml:space="preserve">
+    <value>Términos de uso</value>
+    <comment>nutzungsbedingungen Head</comment>
+  </data>
+  <data name="nutzungsbedingungen_txt" xml:space="preserve">
+    <value>Actualizamos nuestros términos de uso y nuestra política de privacidad.</value>
+    <comment>nutzungsbedingungen  Text</comment>
+  </data>
+  <data name="nutzungsbedingungen_verabschieden" xml:space="preserve">
+    <value>Entendido</value>
+    <comment>First Run Nutzungsbedingungen Verstanden</comment>
+  </data>
+  <data name="random_switch_description" xml:space="preserve">
+    <value>Plantilla de texto aleatorio al abrir anuncios</value>
+    <comment>Zufällige Textvorlage beim Öffnen Anzeigen</comment>
+  </data>
+  <data name="random_switch_header" xml:space="preserve">
+    <value>Plantillas de texto aleatorio</value>
+    <comment>Zufällige Textvorlagen</comment>
+  </data>
+  <data name="spenden_txt" xml:space="preserve">
+    <value>Una donación al fondo café, estaríamos muy agradecidos. Las donaciones fluyen en el desarrollo de la aplicación y sitio Web, así como el recibo del Banco de datos.</value>
+    <comment>Spenden Text</comment>
+  </data>
+  <data name="spenden_fail" xml:space="preserve">
+    <value>Las donaciones no funcionan lamentablemente. Por favor, compruebe su conexión a Internet e inténtelo de nuevo.</value>
+    <comment>Spenden Fehler</comment>
+  </data>
+  <data name="spenden_sucsess" xml:space="preserve">
+    <value>¡Gracias por su donación! ¡Cada centavo ayuda!</value>
+    <comment>Spenden Erfolgreich</comment>
+  </data>
+  <data name="spenden_head" xml:space="preserve">
+    <value>Donativos</value>
+    <comment>Spenden Header</comment>
+  </data>
+  <data name="system_design_dunkel" xml:space="preserve">
+    <value>Tema oscuro</value>
+    <comment>Design Dunkel</comment>
+  </data>
+  <data name="ruckmeldung_einsenden" xml:space="preserve">
+    <value>Enviar comentarios</value>
+    <comment>Rückmeldungeinsenden FAQ Head</comment>
+  </data>
+  <data name="betreff_error" xml:space="preserve">
+    <value>Su objeto debe ser al menos 3 caracteres</value>
+    <comment>kontakt Fehler</comment>
+  </data>
+  <data name="email_error_lengt" xml:space="preserve">
+    <value>Su correo electrónico debe ser al menos 6 caracteres de largo</value>
+    <comment>kontakt Fehler</comment>
+  </data>
+  <data name="email_error_validation" xml:space="preserve">
+    <value>Este email no es válido</value>
+    <comment>kontakt Fehler</comment>
+  </data>
+  <data name="nachname_error" xml:space="preserve">
+    <value>Tu apellido debe ser al menos 3 caracteres</value>
+    <comment>kontakt Fehler</comment>
+  </data>
+  <data name="nachrich_error" xml:space="preserve">
+    <value>Su mensaje debe ser al menos 6 caracteres de largo</value>
+    <comment>kontakt Fehler</comment>
+  </data>
+  <data name="vorname_error" xml:space="preserve">
+    <value>Su nombre debe ser al menos 3 caracteres</value>
+    <comment>kontakt Fehler</comment>
+  </data>
+  <data name="kontakt_versendet" xml:space="preserve">
+    <value>¡Su solicitud de contacto ha llegado con éxito a nosotros!</value>
+    <comment>Kontakt Formular Erfolgreich Text</comment>
+  </data>
+  <data name="kontakt_versendet_error" xml:space="preserve">
+    <value>Su solicitud no pudo ser entregada. Por favor compruebe su conexión a Internet.</value>
+    <comment>Kontakt Formular Error Text</comment>
+  </data>
+  <data name="kontakt_versendet_head" xml:space="preserve">
+    <value>nota</value>
+    <comment>Kontakt Formular Erfolgreich Header</comment>
+  </data>
+  <data name="kontakt_versendet_head_error" xml:space="preserve">
+    <value>error</value>
+    <comment>Kontakt Formular Error Header</comment>
+  </data>
+  <data name="setting_option" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="kontakt_nicht_alle_felder" xml:space="preserve">
+    <value>Por favor comprueba si se llenan todos los campos de texto.</value>
+  </data>
+  <data name="kontakt_formular_betreff" xml:space="preserve">
+    <value>tema</value>
+  </data>
+  <data name="kontakt_formular_email" xml:space="preserve">
+    <value>dirección de correo electrónico</value>
+  </data>
+  <data name="kontakt_formular_kategorie" xml:space="preserve">
+    <value>Elegir categoría</value>
+  </data>
+  <data name="kontakt_formular_nachname" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="kontakt_formular_nachricht" xml:space="preserve">
+    <value>mensaje</value>
+  </data>
+  <data name="kontakt_formular_vorname" xml:space="preserve">
+    <value>nombre de pila</value>
+  </data>
+  <data name="translate_back_btn" xml:space="preserve">
+    <value>Traducir volver</value>
+  </data>
+  <data name="translate_btn" xml:space="preserve">
+    <value>Realizar conversión</value>
+  </data>
+  <data name="kategorie_wählen" xml:space="preserve">
+    <value>Elegir categoría</value>
+  </data>
+  <data name="app_name" xml:space="preserve">
+    <value>nombre de aplicación</value>
+  </data>
+  <data name="email_unternehmen" xml:space="preserve">
+    <value>Dirección de correo electrónico de la empresa (opcional)</value>
+  </data>
+  <data name="unternehmen" xml:space="preserve">
+    <value>compañía</value>
+  </data>
+  <data name="kontakt_app_name" xml:space="preserve">
+    <value>Nombre de la aplicación</value>
+  </data>
+  <data name="kontakt_firma" xml:space="preserve">
+    <value>Empresa (desarrollador)</value>
+  </data>
+  <data name="wunsch_app_btn" xml:space="preserve">
+    <value>Presentar solicitud de aplicación</value>
+  </data>
+  <data name="app_showbox" xml:space="preserve">
+    <value>Caja de la demostración de la aplicación</value>
+  </data>
+  <data name="app_showbox_content" xml:space="preserve">
+    <value>Esta función no ha terminado todavía otra vez ;) prueba después de la próxima actualización</value>
+  </data>
+  <data name="app_showbox_title" xml:space="preserve">
+    <value>Caja de la demostración de la aplicación</value>
+  </data>
+  <data name="amazon_spende" xml:space="preserve">
+    <value>Sin cargo para el próximo Amazon compras donaciones</value>
+  </data>
+  <data name="amazon_spende_btn" xml:space="preserve">
+    <value>Ahora en Amazon de compras</value>
+  </data>
+  <data name="paypal_spende" xml:space="preserve">
+    <value>Donación vía PayPal</value>
+  </data>
+  <data name="paypal_spende_btn" xml:space="preserve">
+    <value>Ahora con las donaciones de PayPal</value>
+  </data>
+  <data name="strore_spende" xml:space="preserve">
+    <value>Donación a través de tienda</value>
+  </data>
+  <data name="unterstutze_projekt" xml:space="preserve">
+    <value>Apoyar nuestro proyecto</value>
+  </data>
+  <data name="kontakt_daten_checkbox" xml:space="preserve">
+    <value>¿Guardar los datos de contacto?</value>
+  </data>
+  <data name="VoteBox_titel" xml:space="preserve">
+    <value>VoteBox</value>
+  </data>
+  <data name="showbox_disclamer" xml:space="preserve">
+    <value>Imágenes de la aplicación son todo desde el Windows almacenar y son los legítimos propietarios de la aplicación!</value>
+  </data>
+  <data name="antwort_von" xml:space="preserve">
+    <value>Respuesta de la empresa o desarrollador</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>estado</value>
+  </data>
+  <data name="allgemeine_questions" xml:space="preserve">
+    <value>Preguntas generales sobre el proyecto</value>
+  </data>
+  <data name="send_feedback" xml:space="preserve">
+    <value>Comentarios acerca de la aplicación</value>
+  </data>
+  <data name="your_feedback" xml:space="preserve">
+    <value>Sus comentarios acerca de la aplicación</value>
+  </data>
+  <data name="your_mail" xml:space="preserve">
+    <value>Su dirección de correo electrónico</value>
+  </data>
+  <data name="your_questions" xml:space="preserve">
+    <value>Preguntas sobre proyecto AppGap</value>
+  </data>
+  <data name="Spenden_erhalten" xml:space="preserve">
+    <value>Hasta ahora las donaciones recibidas ascendieron a</value>
+  </data>
+  <data name="spenden_error" xml:space="preserve">
+    <value>Necesita una conexión activa a Internet para ver las donaciones recibidas.</value>
+  </data>
+</root>
