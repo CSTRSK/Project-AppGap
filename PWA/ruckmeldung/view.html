@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project AppGap - Rückmeldungen</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Project AppGap ein Projekt von CSTRSK Entwicklungsstudio Ulm, die App und Software-Entwickler in Ulm, Deutschland" />
+	<meta name="keywords" content="Entwicklungsstudio,Entwicklungs,Studio,App, Entwickler, Programmierer, Ulm, Windows, Phone, Nokia, Android, Amazon, Yandex, Shop, Store, App, Apps, Microsoft,Web, Seite,Windows Phone,Software,Developers,dev,Germany,deutschland,samsung,lg,huawei,google,development,Project, AppGap" />
+	<meta name="author" content="CSTRSK" />
+	<meta name="owner" content="CSTRSK" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script type="text/javascript" src="//cstrsk.de/project-appgap/ruckmeldung/jquery-1.5.2.js"></script>
+</head>
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 32px;
+  border: none;
+  outline: none;
+  background-color: #ffc107;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #ffac07;
+}
+</style>
+
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Nach Oben scrollen" style="font-size:32px">hoch</button>
+
+<div class="w3-container w3-indigo">
+  <h1>Project AppGap - Rückmeldungen</h1>
+  <br>
+<div class="w3-bar w3-light-grey">
+  <a href="https://cstrsk.de/" style="width:25%" class="w3-bar-item w3-button w3-mobile">CSTRSK Hauptseite</a>
+  <a href="https://cstrsk.de/project-appgap/" style="width:25%" class="w3-bar-item w3-button w3-mobile">Project Seite</a>
+  <a href="https://cstrsk.de/project-appgap/ruckmeldung/" style="width:25%" class="w3-bar-item w3-button w3-mobile">Rückmeldung Eintragen</a>
+  <a href="#" style="width:25%" class="w3-bar-item w3-button w3-mobile w3-indigo">Rückmeldungen Sehen</a>
+</div>
+</div>
+
+<div class="w3-container w3-mobile">
+
+<div id="demo">
+
+</div>
+
+ <!-- <p id="demo"></p>-->
+<script>
+xmlhttp=new XMLHttpRequest();
+xmlhttp.open("GET", "test.json", false);
+xmlhttp.send();
+var data = JSON.parse(xmlhttp.responseText);
+  
+
+$.each(data,function(i,el)
+{
+   if(el.state =="rejected")
+		document.getElementById("demo").innerHTML += "<div class=\"w3-panel w3-light-grey w3-card-4 w3-mobile\"><p><span class=\"w3-tag w3-xlarge w3-padding w3-red\" style=\"transform:rotate(-5deg)\">Abgelent</span><br><h4><b>"+ el.appname + "</b> wurde abgelehnt am" + ", " + el.date+ "</h4>" + el.response+"</p></div>";
+		
+   if(el.state =="checking")
+		document.getElementById("demo").innerHTML += "<div class=\"w3-panel w3-light-grey w3-card-4 w3-mobile\"><p><span class=\"w3-tag w3-xlarge w3-padding w3-blue\" style=\"transform:rotate(-5deg)\">Überprüfung</span><br><h4><b>"+el.appname + "</b> wird pr\u00fcfungen seit" + ", " + el.date+ "</h4>" + el.response+"</p></div>";
+		
+   if(el.state =="inwork")
+		document.getElementById("demo").innerHTML += "<div class=\"w3-panel w3-light-grey w3-card-4 w3-mobile\"><p><span class=\"w3-tag w3-xlarge w3-padding w3-green\" style=\"transform:rotate(-5deg)\">In Arbeit</span><br><h4><b>"+el.appname + "</b> ist in Arbeit seit" + ", " + el.date+ "</h4>" + el.response+"</p></div>";
+		
+   if(el.state =="available")
+		document.getElementById("demo").innerHTML += "<div class=\"w3-panel w3-light-grey w3-card-4 w3-mobile\"><p><span class=\"w3-tag w3-xlarge w3-padding w3-light-green\" style=\"transform:rotate(-5deg)\">Verfügbar</span><br><h4><b>"+ el.appname + "</b> ist verf\u00fcgbar seit" + ", " + el.date+ "</h4>" + el.response+"</p></div>";
+});
+
+
+</script>
+<br>
+<center><iframe title='A-ADS' data-aa='905845' src='//ad.a-ads.com/905845?size=468x60' scrolling='no' style='width:468px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe></center>
+
+</div>
+
+<div class="w3-container w3-indigo">
+  <h5 class="w3-text-white">&copy; Copyright 2019 by <a href="https://cstrsk.de/" rel="noopener" target="_blank">CSTRSK</a> All rights reserved. - <a href="https://cstrsk.de/Impressum.html" rel="noopener" target="_blank">CSTRSK Impressum</a> - <a href="https://cstrsk.de/dsvgo.html" rel="noopener" target="_blank">DSVGO auf CSTRSK / GDPR on CSTRSK</a></h5>
+</div>
+
+<script type="text/javascript">	
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
+
